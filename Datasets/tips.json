@@ -1,0 +1,111 @@
+[
+  {
+    "juego": "Resident Evil 4 Remake",
+    "situacion": "combate general",
+    "tip": "Apunta a las piernas de los enemigos para derribarlos y luego usa ataques cuerpo a cuerpo para ahorrar munición."
+  },
+  {
+    "juego": "Resident Evil 4 Remake",
+    "situacion": "recursos",
+    "tip": "Administra bien tu inventario y combina hierbas para maximizar la curación."
+  },
+
+  {
+    "juego": "Hollow Knight",
+    "situacion": "jefes",
+    "tip": "Observa los patrones de ataque del jefe antes de atacar, la paciencia es clave."
+  },
+  {
+    "juego": "Hollow Knight",
+    "situacion": "exploracion",
+    "tip": "Compra mapas y marcas en la tienda para no perderte en el mundo subterráneo."
+  },
+
+  {
+    "juego": "The Forest",
+    "situacion": "supervivencia",
+    "tip": "Construye refugios lo antes posible para guardar tu progreso y protegerte en la noche."
+  },
+  {
+    "juego": "The Forest",
+    "situacion": "enemigos",
+    "tip": "Evita enfrentamientos directos al inicio, los enemigos son más fuertes de lo que parecen."
+  },
+
+  {
+    "juego": "Geometry Dash",
+    "situacion": "niveles dificiles",
+    "tip": "Memoriza el patrón del nivel y sincroniza tus saltos con la música."
+  },
+  {
+    "juego": "Geometry Dash",
+    "situacion": "precision",
+    "tip": "Practica en modo entrenamiento para mejorar tu precisión antes de intentar el nivel completo."
+  },
+
+  {
+    "juego": "Terraria",
+    "situacion": "inicio",
+    "tip": "Construye una casa básica rápidamente para evitar ataques enemigos durante la noche."
+  },
+  {
+    "juego": "Terraria",
+    "situacion": "progreso",
+    "tip": "Explora cuevas para encontrar mejores materiales y mejorar tu equipo."
+  },
+
+  {
+    "juego": "Assassin’s Creed Odyssey",
+    "situacion": "combate",
+    "tip": "Esquiva y contraataca en lugar de atacar constantemente para evitar daño innecesario."
+  },
+  {
+    "juego": "Assassin’s Creed Odyssey",
+    "situacion": "sigilo",
+    "tip": "Usa el sigilo para eliminar enemigos silenciosamente y evitar combates difíciles."
+  },
+
+  {
+    "juego": "Forza Horizon 5",
+    "situacion": "carreras",
+    "tip": "Reduce la velocidad antes de las curvas y acelera al salir para mantener el control."
+  },
+  {
+    "juego": "Forza Horizon 5",
+    "situacion": "vehiculos",
+    "tip": "Ajusta la configuración del auto según el tipo de carrera para mejorar el rendimiento."
+  },
+
+  {
+    "juego": "Need for Speed Heat",
+    "situacion": "persecuciones",
+    "tip": "Evita a la policía usando atajos y zonas difíciles de acceder para los patrulleros."
+  },
+  {
+    "juego": "Need for Speed Heat",
+    "situacion": "dinero",
+    "tip": "Participa en carreras nocturnas para ganar más reputación, pero ten cuidado con la policía."
+  },
+
+  {
+    "juego": "Stardew Valley",
+    "situacion": "inicio",
+    "tip": "Planta cultivos desde el primer día para generar ingresos rápidamente."
+  },
+  {
+    "juego": "Stardew Valley",
+    "situacion": "energia",
+    "tip": "Administra tu energía diaria y evita agotarte para no perder productividad."
+  },
+
+  {
+    "juego": "Super Mario Bros. Wonder",
+    "situacion": "niveles",
+    "tip": "Explora bien cada nivel para encontrar caminos secretos y recompensas ocultas."
+  },
+  {
+    "juego": "Super Mario Bros. Wonder",
+    "situacion": "habilidades",
+    "tip": "Aprovecha las habilidades especiales de cada personaje para superar obstáculos."
+  }
+]

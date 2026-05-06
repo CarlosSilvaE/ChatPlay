@@ -1,0 +1,120 @@
+[
+  {
+    "juego": "Resident Evil 4 Remake",
+    "genero": "terror",
+    "subgenero": "survival horror",
+    "plataformas": [
+      "PC",
+      "Xbox Series X",
+      "Xbox Series S",
+      "PlayStation 4",
+      "PlayStation 5"
+    ],
+    "descripcion": "Juego de supervivencia contra infectados con enfoque en acción y exploración."
+  },
+  {
+    "juego": "Hollow Knight",
+    "genero": "aventura",
+    "subgenero": "metroidvania",
+    "plataformas": [
+      "PC",
+      "Xbox One",
+      "Xbox Series X/S",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Juego de acción y exploración en un mundo subterráneo lleno de secretos."
+  },
+  {
+    "juego": "The Forest",
+    "genero": "supervivencia",
+    "subgenero": "terror",
+    "plataformas": [
+      "PC",
+      "PlayStation 4"
+    ],
+    "descripcion": "Juego de supervivencia en una isla con elementos de terror y construcción."
+  },
+  {
+    "juego": "Geometry Dash",
+    "genero": "plataformas",
+    "subgenero": "ritmo",
+    "plataformas": [
+      "PC",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego de plataformas basado en ritmo donde debes esquivar obstáculos con precisión."
+  },
+  {
+    "juego": "Terraria",
+    "genero": "aventura",
+    "subgenero": "sandbox",
+    "plataformas": [
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Nintendo Switch",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego 2D de exploración, construcción y combate con gran libertad."
+  },
+  {
+    "juego": "Assassin’s Creed Odyssey",
+    "genero": "accion",
+    "subgenero": "RPG",
+    "plataformas": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4"
+    ],
+    "descripcion": "Juego de mundo abierto ambientado en la antigua Grecia con combate y decisiones."
+  },
+  {
+    "juego": "Forza Horizon 5",
+    "genero": "carreras",
+    "subgenero": "mundo abierto",
+    "plataformas": [
+      "PC",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "descripcion": "Juego de carreras en mundo abierto ambientado en México con gran variedad de autos."
+  },
+  {
+    "juego": "Need for Speed Heat",
+    "genero": "carreras",
+    "subgenero": "arcade",
+    "plataformas": [
+      "PC",
+      "Xbox One",
+      "PlayStation 4"
+    ],
+    "descripcion": "Juego de carreras callejeras con modo día y noche y persecuciones policiales."
+  },
+  {
+    "juego": "Stardew Valley",
+    "genero": "simulacion",
+    "subgenero": "vida",
+    "plataformas": [
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Nintendo Switch",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego de simulación donde gestionas una granja, interactúas con personajes y exploras."
+  },
+  {
+    "juego": "Super Mario Bros. Wonder",
+    "genero": "plataformas",
+    "subgenero": "clasico",
+    "plataformas": [
+      "Nintendo Switch"
+    ],
+    "descripcion": "Juego de plataformas clásico con nuevas mecánicas y niveles creativos."
+  }
+]

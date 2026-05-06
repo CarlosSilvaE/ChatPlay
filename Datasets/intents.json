@@ -1,0 +1,162 @@
+{
+    "intents": [
+        {
+            "tag": "Saludo",
+            "patterns": 
+            [
+                "hola", 
+                "buenos dias", 
+                "buenas tardes", 
+                "buenas noches", 
+                "que tal", 
+                "que onda", 
+                "hola chatplay"
+            ],
+            "responses": 
+            [
+                "Hola! ¿Como estas?", 
+                "Hola! ¿En que puedo ayudarte?", 
+                "Que onda, ¿Que puedo hacer por ti?",
+                "Que tal amigo! ¿De que quieres platicar hoy?",
+                "Buenos dias, ¿Que tienes para mi?",
+                "Buenas tardes, ¿Que tienes para mi?",
+                "Buenas noches, ¿Que tienes para mi?"
+            ]
+        },
+
+        {
+            "tag": "recomendacion_genero",
+            "patterns":
+            [
+                "Recomiendame un juego de terror",
+                "Si jugue Minecraft, que otro juego me recomiendas?",
+                "Recomiendame juegos de aventura",
+                "Que juegos de carreras me recomiendas?",
+                "quiero un juego de terror",
+                "dame juegos de aventura",
+                "busco juegos de carreras",
+                "recomendame algo divertido",
+                "quiero jugar algo nuevo"
+            ],
+            "responses":
+            [
+                "Claro, puedo recomendarte juegos según el género que te guste.",
+                "Dime qué tipo de juego te interesa y te doy opciones.",
+                "Tengo varias recomendaciones, ¿qué género prefieres?"
+            ]
+        },
+
+        {
+            "tag": "info_juego",
+            "patterns":
+            [
+                "de que trata hollow knight",
+                "que es resident evil 4 remake",
+                "informacion de terraria",
+                "de que trata stardew valley",
+                "explicame forza horizon 5",
+                "que tipo de juego es geometry dash"
+            ],
+            "responses":
+            [
+                "Claro, te puedo dar información sobre ese juego.",
+                "Ese juego es muy interesante, déjame explicarte.",
+                "Te doy un resumen del juego que mencionas."
+            ]
+        },
+
+        {
+            "tag": "plataforma",
+            "patterns":
+            [
+                "esta para pc",
+                "se puede jugar en xbox",
+                "en que consola esta",
+                "esta disponible en playstation",
+                "puedo jugarlo en switch",
+                "en que plataformas esta"
+            ],
+            "responses":
+            [
+                "Puedo decirte en qué plataformas está disponible.",
+                "Déjame revisar en qué consolas puedes jugarlo.",
+                "Te digo en qué plataformas está ese juego."
+            ]
+        },
+
+        {
+            "tag": "trucos",
+            "patterns":
+            [
+                "dame trucos",
+                "tienes consejos para juegos",
+                "tips para jugar mejor",
+                "como mejorar en juegos",
+                "quiero consejos para jugar",
+                "dame tips gamer"
+            ],
+            "responses":
+            [
+                "Claro, tengo algunos consejos para mejorar tu juego.",
+                "Te puedo dar varios tips útiles.",
+                "Aquí tienes algunos consejos para mejorar."
+            ]
+        },
+
+        {
+            "tag": "ayuda_nivel",
+            "patterns":
+            [
+                "no puedo pasar un nivel",
+                "como paso este nivel",
+                "como vencer un jefe",
+                "necesito ayuda en un juego",
+                "como avanzo en el juego",
+                "estoy atorado en un nivel"
+            ],
+            "responses":
+            [
+                "Te puedo ayudar con estrategias para avanzar.",
+                "Dime en qué parte estás atorado y te ayudo.",
+                "Vamos a ver cómo puedes superar ese nivel."
+            ]
+        },
+
+        {
+            "tag": "despedida",
+            "patterns":
+            [
+                "adios",
+                "nos vemos",
+                "hasta luego",
+                "bye",
+                "gracias eso es todo",
+                "me voy"
+            ],
+            "responses":
+            [
+                "¡Nos vemos! Que disfrutes tus juegos 🎮",
+                "Hasta luego, vuelve cuando quieras.",
+                "Fue un gusto ayudarte, ¡hasta pronto!"
+            ]
+        },
+
+        {
+            "tag": "fallback",
+            "patterns":
+            [
+                "no entiendo",
+                "que dijiste",
+                "puedes repetir",
+                "no se",
+                "que haces"
+            ],
+            "responses":
+            [
+                "No entendí bien tu pregunta, ¿puedes reformularla?",
+                "Intenta preguntarme sobre videojuegos, recomendaciones o ayuda.",
+                "No estoy seguro de eso, pero puedo ayudarte con juegos."
+            ]
+        }
+    ]
+}
