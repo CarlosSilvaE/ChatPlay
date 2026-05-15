@@ -25,9 +25,28 @@
         },
 
         {
+            "tag": "agradecimiento",
+            "patterns":
+            [
+                "gracias",
+                "muchas gracias",
+                "te lo agradezco",
+                "gracias por tu ayuda",
+                "gracias por la informacion"
+            ],
+            "responses":
+            [
+                "De nada, ¡siempre estoy aquí para ayudarte!",
+                "¡Gracias a ti también!",
+                "No hay problema, ¿en qué más puedo ayudarte?"
+            ]
+        },
+
+        {
             "tag": "recomendacion_genero",
             "patterns":
             [
+                "No encuentro las monedas en Geometry dash",
                 "Recomiendame un juego de terror",
                 "Si jugue Minecraft, que otro juego me recomiendas?",
                 "Recomiendame juegos de aventura",
@@ -50,6 +69,8 @@
             "tag": "info_juego",
             "patterns":
             [
+                "Que mas me puedes contar sobre Minecraft",
+                "dame informacion de resident evil 4 remake",
                 "de que trata hollow knight",
                 "que es resident evil 4 remake",
                 "informacion de terraria",
@@ -66,21 +87,20 @@
         },
 
         {
-            "tag": "plataforma",
+            "tag": "sistema",
             "patterns":
             [
                 "esta para pc",
                 "se puede jugar en xbox",
-                "en que consola esta",
                 "esta disponible en playstation",
                 "puedo jugarlo en switch",
-                "en que plataformas esta"
+                "en que sistemas esta"
             ],
             "responses":
             [
-                "Puedo decirte en qué plataformas está disponible.",
-                "Déjame revisar en qué consolas puedes jugarlo.",
-                "Te digo en qué plataformas está ese juego."
+                "Puedo decirte en qué sistemas está disponible.",
+                "Déjame revisar en qué sistemas puedes jugarlo.",
+                "Te digo en qué sistemas está ese juego."
             ]
         },
 
@@ -131,7 +151,10 @@
                 "hasta luego",
                 "bye",
                 "gracias eso es todo",
-                "me voy"
+                "me voy",
+                "camara bro",
+                "sbrs, adios",
+                "sbrs, nos vemos"
             ],
             "responses":
             [

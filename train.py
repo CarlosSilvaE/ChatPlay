@@ -5,7 +5,7 @@ import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 
-from utils import clear_text
+from utils.text_utils import clear_text
 
 INTENTS_PATH = "Datasets/intents.json"
 MODELS_DIR = "models"

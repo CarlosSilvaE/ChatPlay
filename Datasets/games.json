@@ -3,7 +3,7 @@
     "juego": "Resident Evil 4 Remake",
     "genero": "terror",
     "subgenero": "survival horror",
-    "plataformas": [
+    "sistemas": [
       "PC",
       "Xbox Series X",
       "Xbox Series S",
@@ -16,7 +16,7 @@
     "juego": "Hollow Knight",
     "genero": "aventura",
     "subgenero": "metroidvania",
-    "plataformas": [
+    "sistemas": [
       "PC",
       "Xbox One",
       "Xbox Series X/S",
@@ -30,7 +30,7 @@
     "juego": "The Forest",
     "genero": "supervivencia",
     "subgenero": "terror",
-    "plataformas": [
+    "sistemas": [
       "PC",
       "PlayStation 4"
     ],
@@ -40,7 +40,7 @@
     "juego": "Geometry Dash",
     "genero": "plataformas",
     "subgenero": "ritmo",
-    "plataformas": [
+    "sistemas": [
       "PC",
       "Android",
       "iOS"
@@ -51,7 +51,7 @@
     "juego": "Terraria",
     "genero": "aventura",
     "subgenero": "sandbox",
-    "plataformas": [
+    "sistemas": [
       "PC",
       "Xbox",
       "PlayStation",
@@ -65,7 +65,7 @@
     "juego": "Assassin’s Creed Odyssey",
     "genero": "accion",
     "subgenero": "RPG",
-    "plataformas": [
+    "sistemas": [
       "PC",
       "Xbox One",
       "PlayStation 4"
@@ -76,7 +76,7 @@
     "juego": "Forza Horizon 5",
     "genero": "carreras",
     "subgenero": "mundo abierto",
-    "plataformas": [
+    "sistemas": [
       "PC",
       "Xbox One",
       "Xbox Series X/S"
@@ -87,7 +87,7 @@
     "juego": "Need for Speed Heat",
     "genero": "carreras",
     "subgenero": "arcade",
-    "plataformas": [
+    "sistemas": [
       "PC",
       "Xbox One",
       "PlayStation 4"
@@ -98,7 +98,7 @@
     "juego": "Stardew Valley",
     "genero": "simulacion",
     "subgenero": "vida",
-    "plataformas": [
+    "sistemas": [
       "PC",
       "Xbox",
       "PlayStation",
@@ -112,7 +112,7 @@
     "juego": "Super Mario Bros. Wonder",
     "genero": "plataformas",
     "subgenero": "clasico",
-    "plataformas": [
+    "sistemas": [
       "Nintendo Switch"
     ],
     "descripcion": "Juego de plataformas clásico con nuevas mecánicas y niveles creativos."
