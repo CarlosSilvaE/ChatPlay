@@ -215,22 +215,6 @@ def responder(mensaje):
 
     else:
         return respuesta_aleatoria("fallback", intents_data)
-
-
-def iniciar_chat():
-    print("ChatPlay 🎮 iniciado. Escribe 'salir' para terminar.")
-
-    while True:
-        mensaje = input("Tú: ")
-
-        if clear_text(mensaje) == "salir":
-            limpiar_contexto()
-            print("ChatPlay: ¡Hasta luego!")
-            break
-
-        respuesta = responder(mensaje)
-        print("ChatPlay:", respuesta)
-
-
+        
 if __name__ == "__main__":
     iniciar_chat()
