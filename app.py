@@ -1,7 +1,7 @@
 import customtkinter as ctk
 from tkinter import END
 
-from chatbot import responder
+from chatbot import responder, detectar_tag
 from utils.text_utils import clear_text
 from services.context_services import limpiar_contexto
 
@@ -140,7 +140,8 @@ class ChatPlayApp(ctk.CTk):
             limpiar_contexto()
             response = "¡Hasta luego!"
         else:
-            response, tag = responder(user_msg, devolver_tag=True)
+            response = responder(user_msg)
+            tag = detectar_tag(user_msg)
 
         self.chatbox.insert(
             END,

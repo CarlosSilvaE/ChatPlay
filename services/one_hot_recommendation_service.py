@@ -51,7 +51,7 @@ def convertir_a_lista(juegos_base):
     return []
 
 
-def recomendar_juegos_similares(juegos_base, games_data, top_n=3):
+def recomendar_juegos_similares(juegos_base, games_data, sistema=None, top_n=3):
     games_df, one_hot_df = crear_matriz_one_hot(games_data)
 
     juegos_normalizados = {
@@ -89,6 +89,19 @@ def recomendar_juegos_similares(juegos_base, games_data, top_n=3):
     resultados = resultados[
         ~resultados["juego"].isin(juegos_base_reales)
     ]
+
+    if sistema:
+        juegos_validos = []
+
+        for juego in games_data:
+            for sistema_juego in juego["sistemas"]:
+                if clear_text(sistema) in clear_text(sistema_juego):
+                    juegos_validos.append(juego["juego"])
+                    break
+
+        resultados = resultados[
+            resultados["juego"].isin(juegos_validos)
+        ]
 
     resultados = resultados.sort_values(
         by="similitud",

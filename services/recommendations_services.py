@@ -1,17 +1,19 @@
 import random
 from utils.text_utils import clear_text
 
-def buscar_juegos_por_genero(genero, games_data):
+def buscar_juegos_por_genero(genero, games_data, limite=3):
     resultados = []
 
     for juego in games_data:
         if clear_text(juego["genero"]) == clear_text(genero):
             resultados.append(juego)
 
-    return resultados
+    if len(resultados) <= limite:
+        return resultados
 
+    return random.sample(resultados, limite)
 
-def buscar_juegos_por_sistema(sistema, games_data):
+def buscar_juegos_por_sistema(sistema, games_data, limite=3):
     resultados = []
 
     for juego in games_data:
@@ -19,11 +21,13 @@ def buscar_juegos_por_sistema(sistema, games_data):
             if clear_text(sistema) in clear_text(sistema_juego):
                 resultados.append(juego)
                 break
+    if len(resultados) <= limite:
+        return resultados
 
-    return resultados
+    return random.sample(resultados, limite)
 
 
-def buscar_juegos_por_genero_y_sistema(genero, sistema, games_data):
+def buscar_juegos_por_genero_y_sistema(genero, sistema, games_data, limite=3):
     resultados = []
 
     for juego in games_data:
@@ -37,4 +41,7 @@ def buscar_juegos_por_genero_y_sistema(genero, sistema, games_data):
         if coincide_genero and coincide_sistema:
             resultados.append(juego)
 
-    return resultados
+    if len(resultados) <= limite:
+        return resultados
+
+    return random.sample(resultados, limite)
