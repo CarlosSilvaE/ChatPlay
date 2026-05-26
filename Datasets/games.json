@@ -3,118 +3,251 @@
     "juego": "Resident Evil 4 Remake",
     "genero": "terror",
     "subgenero": "survival horror",
-    "sistemas": [
-      "PC",
-      "Xbox Series X",
-      "Xbox Series S",
-      "PlayStation 4",
-      "PlayStation 5"
-    ],
+    "sistemas": ["PC", "Xbox Series X", "Xbox Series S", "PlayStation 4", "PlayStation 5"],
     "descripcion": "Juego de supervivencia contra infectados con enfoque en acción y exploración."
   },
+  {
+    "juego": "Outlast",
+    "genero": "terror",
+    "subgenero": "survival horror",
+    "sistemas": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+    "descripcion": "Juego de terror en primera persona donde debes escapar y esconderte sin poder combatir."
+  },
+  {
+    "juego": "Amnesia: The Dark Descent",
+    "genero": "terror",
+    "subgenero": "psicologico",
+    "sistemas": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+    "descripcion": "Juego de terror psicológico enfocado en exploración, tensión y resolución de acertijos."
+  },
+  {
+    "juego": "Alien: Isolation",
+    "genero": "terror",
+    "subgenero": "survival horror",
+    "sistemas": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+    "descripcion": "Juego de terror y sigilo donde debes sobrevivir a una amenaza alienígena impredecible."
+  },
+  {
+    "juego": "The Evil Within",
+    "genero": "terror",
+    "subgenero": "survival horror",
+    "sistemas": ["PC", "PlayStation 4", "Xbox One"],
+    "descripcion": "Juego de terror con combate, recursos limitados y escenarios perturbadores."
+  },
+
   {
     "juego": "Hollow Knight",
     "genero": "aventura",
     "subgenero": "metroidvania",
-    "sistemas": [
-      "PC",
-      "Xbox One",
-      "Xbox Series X/S",
-      "PlayStation 4",
-      "PlayStation 5",
-      "Nintendo Switch"
-    ],
+    "sistemas": ["PC", "Xbox One", "Xbox Series X/S", "PlayStation 4", "PlayStation 5", "Nintendo Switch"],
     "descripcion": "Juego de acción y exploración en un mundo subterráneo lleno de secretos."
   },
   {
-    "juego": "The Forest",
-    "genero": "supervivencia",
-    "subgenero": "terror",
-    "sistemas": [
-      "PC",
-      "PlayStation 4"
-    ],
-    "descripcion": "Juego de supervivencia en una isla con elementos de terror y construcción."
+    "juego": "The Legend of Zelda: Breath of the Wild",
+    "genero": "aventura",
+    "subgenero": "mundo abierto",
+    "sistemas": ["Nintendo Switch", "Wii U"],
+    "descripcion": "Juego de aventura en mundo abierto con exploración libre, acertijos y combate."
   },
   {
-    "juego": "Geometry Dash",
-    "genero": "plataformas",
-    "subgenero": "ritmo",
-    "sistemas": [
-      "PC",
-      "Android",
-      "iOS"
-    ],
-    "descripcion": "Juego de plataformas basado en ritmo donde debes esquivar obstáculos con precisión."
+    "juego": "Tomb Raider",
+    "genero": "aventura",
+    "subgenero": "accion-aventura",
+    "sistemas": ["PC", "PlayStation 4", "Xbox One"],
+    "descripcion": "Juego de aventura y acción donde exploras ruinas, resuelves acertijos y sobrevives a peligros."
+  },
+  {
+    "juego": "Ori and the Blind Forest",
+    "genero": "aventura",
+    "subgenero": "metroidvania",
+    "sistemas": ["PC", "Xbox One", "Nintendo Switch"],
+    "descripcion": "Juego de aventura y plataformas con exploración, habilidades progresivas y estilo artístico emotivo."
   },
   {
     "juego": "Terraria",
     "genero": "aventura",
     "subgenero": "sandbox",
-    "sistemas": [
-      "PC",
-      "Xbox",
-      "PlayStation",
-      "Nintendo Switch",
-      "Android",
-      "iOS"
-    ],
+    "sistemas": ["PC", "Xbox", "PlayStation", "Nintendo Switch", "Android", "iOS"],
     "descripcion": "Juego 2D de exploración, construcción y combate con gran libertad."
   },
+
+  {
+    "juego": "The Forest",
+    "genero": "supervivencia",
+    "subgenero": "terror",
+    "sistemas": ["PC", "PlayStation 4"],
+    "descripcion": "Juego de supervivencia en una isla con elementos de terror y construcción."
+  },
+  {
+    "juego": "Subnautica",
+    "genero": "supervivencia",
+    "subgenero": "exploracion",
+    "sistemas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "Nintendo Switch"],
+    "descripcion": "Juego de supervivencia submarina donde exploras, recolectas recursos y construyes bases."
+  },
+  {
+    "juego": "ARK: Survival Evolved",
+    "genero": "supervivencia",
+    "subgenero": "mundo abierto",
+    "sistemas": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+    "descripcion": "Juego de supervivencia con dinosaurios, construcción, recolección y multijugador."
+  },
+  {
+    "juego": "Don't Starve",
+    "genero": "supervivencia",
+    "subgenero": "roguelike",
+    "sistemas": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch", "Android", "iOS"],
+    "descripcion": "Juego de supervivencia con estilo oscuro donde debes recolectar recursos y evitar morir."
+  },
+  {
+    "juego": "Raft",
+    "genero": "supervivencia",
+    "subgenero": "crafting",
+    "sistemas": ["PC"],
+    "descripcion": "Juego de supervivencia en el océano donde expandes una balsa y recolectas recursos flotantes."
+  },
+
+  {
+    "juego": "Geometry Dash",
+    "genero": "plataformas",
+    "subgenero": "ritmo",
+    "sistemas": ["PC", "Android", "iOS"],
+    "descripcion": "Juego de plataformas basado en ritmo donde debes esquivar obstáculos con precisión."
+  },
+  {
+    "juego": "Super Mario Bros. Wonder",
+    "genero": "plataformas",
+    "subgenero": "clasico",
+    "sistemas": ["Nintendo Switch"],
+    "descripcion": "Juego de plataformas clásico con nuevas mecánicas y niveles creativos."
+  },
+  {
+    "juego": "Celeste",
+    "genero": "plataformas",
+    "subgenero": "precision",
+    "sistemas": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+    "descripcion": "Juego de plataformas de precisión con niveles exigentes y una historia emocional."
+  },
+  {
+    "juego": "Cuphead",
+    "genero": "plataformas",
+    "subgenero": "run and gun",
+    "sistemas": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+    "descripcion": "Juego de plataformas y disparos con jefes difíciles y estilo visual de animación clásica."
+  },
+  {
+    "juego": "Rayman Legends",
+    "genero": "plataformas",
+    "subgenero": "aventura",
+    "sistemas": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+    "descripcion": "Juego de plataformas colorido con niveles variados, cooperativo y ritmo rápido."
+  },
+
   {
     "juego": "Assassin’s Creed Odyssey",
     "genero": "accion",
     "subgenero": "RPG",
-    "sistemas": [
-      "PC",
-      "Xbox One",
-      "PlayStation 4"
-    ],
+    "sistemas": ["PC", "Xbox One", "PlayStation 4"],
     "descripcion": "Juego de mundo abierto ambientado en la antigua Grecia con combate y decisiones."
   },
+  {
+    "juego": "God of War",
+    "genero": "accion",
+    "subgenero": "accion-aventura",
+    "sistemas": ["PC", "PlayStation 4", "PlayStation 5"],
+    "descripcion": "Juego de acción con combate intenso, exploración y una historia centrada en Kratos y Atreus."
+  },
+  {
+    "juego": "Devil May Cry 5",
+    "genero": "accion",
+    "subgenero": "hack and slash",
+    "sistemas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
+    "descripcion": "Juego de acción rápida con combos, estilo visual llamativo y combate técnico."
+  },
+  {
+    "juego": "Sekiro: Shadows Die Twice",
+    "genero": "accion",
+    "subgenero": "soulslike",
+    "sistemas": ["PC", "PlayStation 4", "Xbox One"],
+    "descripcion": "Juego de acción exigente basado en precisión, parrys y combates contra jefes."
+  },
+  {
+    "juego": "Marvel's Spider-Man Remastered",
+    "genero": "accion",
+    "subgenero": "mundo abierto",
+    "sistemas": ["PC", "PlayStation 5"],
+    "descripcion": "Juego de acción en mundo abierto donde controlas a Spider-Man con combate ágil y exploración urbana."
+  },
+
   {
     "juego": "Forza Horizon 5",
     "genero": "carreras",
     "subgenero": "mundo abierto",
-    "sistemas": [
-      "PC",
-      "Xbox One",
-      "Xbox Series X/S"
-    ],
+    "sistemas": ["PC", "Xbox One", "Xbox Series X/S"],
     "descripcion": "Juego de carreras en mundo abierto ambientado en México con gran variedad de autos."
   },
   {
     "juego": "Need for Speed Heat",
     "genero": "carreras",
     "subgenero": "arcade",
-    "sistemas": [
-      "PC",
-      "Xbox One",
-      "PlayStation 4"
-    ],
+    "sistemas": ["PC", "Xbox One", "PlayStation 4"],
     "descripcion": "Juego de carreras callejeras con modo día y noche y persecuciones policiales."
   },
+  {
+    "juego": "Gran Turismo 7",
+    "genero": "carreras",
+    "subgenero": "simulacion",
+    "sistemas": ["PlayStation 4", "PlayStation 5"],
+    "descripcion": "Juego de carreras enfocado en simulación, colección de autos y competición."
+  },
+  {
+    "juego": "F1 23",
+    "genero": "carreras",
+    "subgenero": "simulacion",
+    "sistemas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
+    "descripcion": "Juego oficial de Fórmula 1 con carreras realistas, equipos oficiales y modo historia."
+  },
+  {
+    "juego": "Mario Kart 8 Deluxe",
+    "genero": "carreras",
+    "subgenero": "arcade",
+    "sistemas": ["Nintendo Switch"],
+    "descripcion": "Juego de carreras arcade con personajes de Nintendo, objetos y pistas dinámicas."
+  },
+
   {
     "juego": "Stardew Valley",
     "genero": "simulacion",
     "subgenero": "vida",
-    "sistemas": [
-      "PC",
-      "Xbox",
-      "PlayStation",
-      "Nintendo Switch",
-      "Android",
-      "iOS"
-    ],
+    "sistemas": ["PC", "Xbox", "PlayStation", "Nintendo Switch", "Android", "iOS"],
     "descripcion": "Juego de simulación donde gestionas una granja, interactúas con personajes y exploras."
   },
   {
-    "juego": "Super Mario Bros. Wonder",
-    "genero": "plataformas",
-    "subgenero": "clasico",
-    "sistemas": [
-      "Nintendo Switch"
-    ],
-    "descripcion": "Juego de plataformas clásico con nuevas mecánicas y niveles creativos."
+    "juego": "The Sims 4",
+    "genero": "simulacion",
+    "subgenero": "vida",
+    "sistemas": ["PC", "PlayStation 4", "Xbox One"],
+    "descripcion": "Juego de simulación social donde creas personajes, casas y controlas sus vidas."
+  },
+  {
+    "juego": "Cities: Skylines",
+    "genero": "simulacion",
+    "subgenero": "gestion",
+    "sistemas": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+    "descripcion": "Juego de simulación y gestión donde construyes y administras una ciudad."
+  },
+  {
+    "juego": "Microsoft Flight Simulator",
+    "genero": "simulacion",
+    "subgenero": "vuelo",
+    "sistemas": ["PC", "Xbox Series X/S"],
+    "descripcion": "Simulador de vuelo realista con aviones detallados y escenarios basados en el mundo real."
+  },
+  {
+    "juego": "Euro Truck Simulator 2",
+    "genero": "simulacion",
+    "subgenero": "conduccion",
+    "sistemas": ["PC"],
+    "descripcion": "Simulador de conducción de camiones donde transportas carga por distintas rutas europeas."
   }
 ]

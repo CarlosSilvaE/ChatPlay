@@ -46,22 +46,44 @@
             "tag": "recomendacion_genero",
             "patterns":
             [
-                "No encuentro las monedas en Geometry dash",
                 "Recomiendame un juego de terror",
-                "Si jugue Minecraft, que otro juego me recomiendas?",
                 "Recomiendame juegos de aventura",
                 "Que juegos de carreras me recomiendas?",
                 "quiero un juego de terror",
+                "tienes mas?",
                 "dame juegos de aventura",
                 "busco juegos de carreras",
                 "recomendame algo divertido",
-                "quiero jugar algo nuevo"
+                "quiero jugar algo nuevo",
+                "Que otros juegos me recomiendas del genero"
             ],
             "responses":
             [
+                "Claro, tengo estos otros juegos que podrían gustarte.",
                 "Claro, puedo recomendarte juegos según el género que te guste.",
                 "Dime qué tipo de juego te interesa y te doy opciones.",
                 "Tengo varias recomendaciones, ¿qué género prefieres?"
+            ]
+        },
+
+        {
+            "tag": "juegos_similares",
+            "patterns": [
+                "recomiendame algo parecido a",
+                "dame juegos similares a",
+                "quiero algo como",
+                "juegos parecidos a",
+                "si me gusta este juego que otro me recomiendas",
+                "algo similar a",
+                "Si juegue este juego que otro me recomiendas",
+                "recomiendame juegos similares a este",
+                "Si jugue resident evil 4 remake y need for speed, que otro me recomiendas?"
+            ],
+            "responses": [
+                "juegos_similares",
+                "Si jugaste esos juegos, te recomiendo estos otros que son similares.",
+                "Si te gustaron esos juegos, estos otros también podrían interesarte.",
+                "Si disfrutaste esos juegos, te recomiendo estos otros que tienen una experiencia similar."
             ]
         },
 
@@ -94,7 +116,8 @@
                 "se puede jugar en xbox",
                 "esta disponible en playstation",
                 "puedo jugarlo en switch",
-                "en que sistemas esta"
+                "en que sistemas esta",
+                "En donde esta"
             ],
             "responses":
             [

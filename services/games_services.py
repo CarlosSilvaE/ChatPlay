@@ -50,6 +50,7 @@ def extraer_juego(mensaje, games_data):
 
     aliases = {
         "minecraft": "Minecraft",
+        "resident": "Resident Evil 4 Remake",
         "resident evil": "Resident Evil 4 Remake",
         "resident evil 4": "Resident Evil 4 Remake",
         "re 4": "Resident Evil 4 Remake",
@@ -94,3 +95,41 @@ def buscar_tips_por_juego(nombre_juego, tips_data):
             resultados.append(tip)
 
     return resultados
+
+def extraer_juegos(mensaje, games_data):
+    mensaje_limpio = clear_text(mensaje)
+    juegos_encontrados = []
+
+    aliases = {
+        "minecraft": "Minecraft",
+        "resident": "Resident Evil 4 Remake",
+        "resident evil": "Resident Evil 4 Remake",
+        "resident evil 4": "Resident Evil 4 Remake",
+        "re 4": "Resident Evil 4 Remake",
+        "re4": "Resident Evil 4 Remake",
+        "hollow knight": "Hollow Knight",
+        "terraria": "Terraria",
+        "forza": "Forza Horizon 5",
+        "forza horizon": "Forza Horizon 5",
+        "nfs": "Need for Speed Heat",
+        "need for speed": "Need for Speed Heat",
+        "geometry": "Geometry Dash",
+        "geometry dash": "Geometry Dash",
+        "mario": "Super Mario Bros. Wonder",
+        "stardew": "Stardew Valley",
+    }
+
+    for alias, nombre_real in aliases.items():
+        if alias in mensaje_limpio:
+            if nombre_real not in juegos_encontrados:
+                juegos_encontrados.append(nombre_real)
+
+    for juego in games_data:
+        nombre_real = juego["juego"]
+        nombre_limpio = clear_text(nombre_real)
+
+        if nombre_limpio in mensaje_limpio:
+            if nombre_real not in juegos_encontrados:
+                juegos_encontrados.append(nombre_real)
+
+    return juegos_encontrados
