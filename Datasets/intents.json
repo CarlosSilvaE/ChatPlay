@@ -64,7 +64,10 @@
                 "dame juegos de playstation",
                 "que puedo jugar en xbox",
                 "algo para android",
-                "recomiendame juegos para ios"
+                "recomiendame juegos para ios",
+                "recomiendame juegos de cualquier genero",
+                "recomiendame cualquier juego",
+                "recomiendame cualqueir juego"
             ],
             "responses":
             [
@@ -72,6 +75,29 @@
                 "Claro, puedo recomendarte juegos según el género que te guste.",
                 "Dime qué tipo de juego te interesa y te doy opciones.",
                 "Tengo varias recomendaciones, ¿qué género prefieres?"
+            ]
+        },
+
+        {
+            "tag": "recomendacion_random",
+            "patterns":
+            [
+                "recomiendame un juego",
+                "quiero algo nuevo",
+                "dame un juego para jugar",
+                "recomiendame algo divertido",
+                "quiero jugar algo nuevo",
+                "recomiendame algo random",
+                "recomiendame algo aleatorio",
+                "dame algo random",
+                "dame algo aleatorio",
+                "quiero algo random",
+                "quiero algo aleatorio"
+            ],
+            "responses":
+            [
+                "Claro, te recomiendo estos juegos.",
+                "Aquí tienes algunos juegos que podrían interesarte."
             ]
         },
 
@@ -179,6 +205,7 @@
             "patterns":
             [
                 "adios",
+                "Adios!",
                 "nos vemos",
                 "hasta luego",
                 "bye",

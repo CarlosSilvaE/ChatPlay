@@ -9,6 +9,75 @@
     "situacion": "recursos",
     "tip": "Administra bien tu inventario y combina hierbas para maximizar la curación."
   },
+  {
+    "juego": "Resident Evil 4 Remake",
+    "situacion": "mejoras",
+    "tip": "Mejora primero las armas que más usas, especialmente la pistola y la escopeta para controlar grupos."
+  },
+
+  {
+    "juego": "Outlast",
+    "situacion": "sigilo",
+    "tip": "Evita correr sin necesidad, porque el ruido puede atraer enemigos y dejarte sin opciones de escape."
+  },
+  {
+    "juego": "Outlast",
+    "situacion": "bateria",
+    "tip": "Usa la cámara solo cuando sea necesario para ahorrar batería en zonas oscuras."
+  },
+  {
+    "juego": "Outlast",
+    "situacion": "escape",
+    "tip": "Aprende rutas de escape y lugares para esconderte antes de avanzar demasiado en cada zona."
+  },
+
+  {
+    "juego": "Amnesia: The Dark Descent",
+    "situacion": "cordura",
+    "tip": "Evita mirar directamente a los enemigos para no perder cordura rápidamente."
+  },
+  {
+    "juego": "Amnesia: The Dark Descent",
+    "situacion": "exploracion",
+    "tip": "Revisa cajones y habitaciones secundarias para encontrar aceite y yesqueros."
+  },
+  {
+    "juego": "Amnesia: The Dark Descent",
+    "situacion": "sigilo",
+    "tip": "Cuando escuches enemigos, apaga la luz y escóndete en una esquina segura."
+  },
+
+  {
+    "juego": "Alien: Isolation",
+    "situacion": "sigilo",
+    "tip": "Muévete agachado y evita correr, ya que el Alien detecta fácilmente el ruido."
+  },
+  {
+    "juego": "Alien: Isolation",
+    "situacion": "herramientas",
+    "tip": "Usa bengalas y generadores de ruido para distraer enemigos y abrirte paso."
+  },
+  {
+    "juego": "Alien: Isolation",
+    "situacion": "supervivencia",
+    "tip": "No permanezcas demasiado tiempo en un solo escondite, porque el Alien puede revisar la zona."
+  },
+
+  {
+    "juego": "The Evil Within",
+    "situacion": "municion",
+    "tip": "Ahorra munición usando trampas del entorno y rematando enemigos cuando estén vulnerables."
+  },
+  {
+    "juego": "The Evil Within",
+    "situacion": "mejoras",
+    "tip": "Invierte gel verde en salud, resistencia y precisión para sobrevivir mejor."
+  },
+  {
+    "juego": "The Evil Within",
+    "situacion": "combate",
+    "tip": "Usa fósforos para quemar enemigos caídos y evitar que se levanten otra vez."
+  },
 
   {
     "juego": "Hollow Knight",
@@ -20,27 +89,58 @@
     "situacion": "exploracion",
     "tip": "Compra mapas y marcas en la tienda para no perderte en el mundo subterráneo."
   },
-
   {
-    "juego": "The Forest",
-    "situacion": "supervivencia",
-    "tip": "Construye refugios lo antes posible para guardar tu progreso y protegerte en la noche."
-  },
-  {
-    "juego": "The Forest",
-    "situacion": "enemigos",
-    "tip": "Evita enfrentamientos directos al inicio, los enemigos son más fuertes de lo que parecen."
+    "juego": "Hollow Knight",
+    "situacion": "combate",
+    "tip": "No gastes toda tu alma atacando; guarda suficiente para curarte durante peleas difíciles."
   },
 
   {
-    "juego": "Geometry Dash",
-    "situacion": "niveles dificiles",
-    "tip": "Memoriza el patrón del nivel y sincroniza tus saltos con la música."
+    "juego": "The Legend of Zelda: Breath of the Wild",
+    "situacion": "exploracion",
+    "tip": "Sube torres para revelar el mapa y marcar santuarios o zonas interesantes."
   },
   {
-    "juego": "Geometry Dash",
-    "situacion": "precision",
-    "tip": "Practica en modo entrenamiento para mejorar tu precisión antes de intentar el nivel completo."
+    "juego": "The Legend of Zelda: Breath of the Wild",
+    "situacion": "combate",
+    "tip": "Usa el entorno a tu favor, como fuego, electricidad y altura para vencer enemigos."
+  },
+  {
+    "juego": "The Legend of Zelda: Breath of the Wild",
+    "situacion": "recursos",
+    "tip": "Cocina alimentos con efectos especiales antes de entrar a zonas frías, calientes o peligrosas."
+  },
+
+  {
+    "juego": "Tomb Raider",
+    "situacion": "exploracion",
+    "tip": "Busca tumbas opcionales para obtener mejoras y recompensas útiles."
+  },
+  {
+    "juego": "Tomb Raider",
+    "situacion": "combate",
+    "tip": "Usa el arco para eliminar enemigos silenciosamente antes de iniciar un combate abierto."
+  },
+  {
+    "juego": "Tomb Raider",
+    "situacion": "mejoras",
+    "tip": "Mejora habilidades de supervivencia al inicio para recolectar más recursos."
+  },
+
+  {
+    "juego": "Ori and the Blind Forest",
+    "situacion": "plataformas",
+    "tip": "Practica el uso de habilidades de movimiento para superar zonas complicadas con mayor precisión."
+  },
+  {
+    "juego": "Ori and the Blind Forest",
+    "situacion": "exploracion",
+    "tip": "Regresa a zonas anteriores cuando desbloquees nuevas habilidades para encontrar secretos."
+  },
+  {
+    "juego": "Ori and the Blind Forest",
+    "situacion": "guardado",
+    "tip": "Usa los puntos de guardado manual en lugares seguros antes de secciones difíciles."
   },
 
   {
@@ -53,6 +153,171 @@
     "situacion": "progreso",
     "tip": "Explora cuevas para encontrar mejores materiales y mejorar tu equipo."
   },
+  {
+    "juego": "Terraria",
+    "situacion": "jefes",
+    "tip": "Prepara una arena con plataformas, fogatas y pociones antes de invocar jefes."
+  },
+
+  {
+    "juego": "The Forest",
+    "situacion": "supervivencia",
+    "tip": "Construye refugios lo antes posible para guardar tu progreso y protegerte en la noche."
+  },
+  {
+    "juego": "The Forest",
+    "situacion": "enemigos",
+    "tip": "Evita enfrentamientos directos al inicio, los enemigos son más fuertes de lo que parecen."
+  },
+  {
+    "juego": "The Forest",
+    "situacion": "recursos",
+    "tip": "Recolecta palos, piedras y comida constantemente para mantenerte preparado."
+  },
+
+  {
+    "juego": "Subnautica",
+    "situacion": "oxigeno",
+    "tip": "Mejora tu tanque de oxígeno lo antes posible para explorar zonas más profundas."
+  },
+  {
+    "juego": "Subnautica",
+    "situacion": "base",
+    "tip": "Construye una base cerca de recursos importantes para facilitar la exploración."
+  },
+  {
+    "juego": "Subnautica",
+    "situacion": "exploracion",
+    "tip": "Coloca balizas en zonas clave para no perder ubicaciones importantes."
+  },
+
+  {
+    "juego": "ARK: Survival Evolved",
+    "situacion": "inicio",
+    "tip": "Empieza recolectando fibra, madera, piedra y paja para crear herramientas básicas."
+  },
+  {
+    "juego": "ARK: Survival Evolved",
+    "situacion": "dinosaurios",
+    "tip": "Doma criaturas pequeñas primero para aprender el sistema antes de intentar con dinosaurios grandes."
+  },
+  {
+    "juego": "ARK: Survival Evolved",
+    "situacion": "base",
+    "tip": "Construye tu base en una zona elevada o protegida para evitar ataques frecuentes."
+  },
+
+  {
+    "juego": "Don't Starve",
+    "situacion": "inicio",
+    "tip": "Recolecta pasto, ramas y pedernal durante el primer día para crear herramientas básicas."
+  },
+  {
+    "juego": "Don't Starve",
+    "situacion": "noche",
+    "tip": "Nunca te quedes sin antorcha o fogata durante la noche, porque la oscuridad te matará."
+  },
+  {
+    "juego": "Don't Starve",
+    "situacion": "comida",
+    "tip": "Aprende a cocinar alimentos para conservar mejor tu salud, hambre y cordura."
+  },
+
+  {
+    "juego": "Raft",
+    "situacion": "recursos",
+    "tip": "Usa el gancho constantemente para recoger materiales flotantes desde el inicio."
+  },
+  {
+    "juego": "Raft",
+    "situacion": "balsa",
+    "tip": "Expande tu balsa poco a poco y protege los bordes de los ataques del tiburón."
+  },
+  {
+    "juego": "Raft",
+    "situacion": "agua",
+    "tip": "Construye pronto un purificador y una parrilla para asegurar agua y comida."
+  },
+
+  {
+    "juego": "Geometry Dash",
+    "situacion": "niveles dificiles",
+    "tip": "Memoriza el patrón del nivel y sincroniza tus saltos con la música."
+  },
+  {
+    "juego": "Geometry Dash",
+    "situacion": "precision",
+    "tip": "Practica en modo entrenamiento para mejorar tu precisión antes de intentar el nivel completo."
+  },
+  {
+    "juego": "Geometry Dash",
+    "situacion": "monedas",
+    "tip": "Busca rutas alternativas dentro del nivel para encontrar monedas secretas."
+  },
+
+  {
+    "juego": "Super Mario Bros. Wonder",
+    "situacion": "niveles",
+    "tip": "Explora bien cada nivel para encontrar caminos secretos y recompensas ocultas."
+  },
+  {
+    "juego": "Super Mario Bros. Wonder",
+    "situacion": "habilidades",
+    "tip": "Aprovecha las habilidades especiales de cada personaje para superar obstáculos."
+  },
+  {
+    "juego": "Super Mario Bros. Wonder",
+    "situacion": "coleccionables",
+    "tip": "Revisa zonas aparentemente vacías, muchas veces esconden monedas flor o secretos."
+  },
+
+  {
+    "juego": "Celeste",
+    "situacion": "precision",
+    "tip": "Practica los dash en diferentes direcciones para dominar los saltos difíciles."
+  },
+  {
+    "juego": "Celeste",
+    "situacion": "paciencia",
+    "tip": "No te frustres por morir muchas veces; cada intento te ayuda a memorizar el nivel."
+  },
+  {
+    "juego": "Celeste",
+    "situacion": "coleccionables",
+    "tip": "Busca fresas solo después de entender bien la mecánica principal de cada zona."
+  },
+
+  {
+    "juego": "Cuphead",
+    "situacion": "jefes",
+    "tip": "Aprende las fases de cada jefe antes de intentar hacer daño agresivamente."
+  },
+  {
+    "juego": "Cuphead",
+    "situacion": "parry",
+    "tip": "Practica el parry con objetos rosas para cargar tu súper más rápido."
+  },
+  {
+    "juego": "Cuphead",
+    "situacion": "armas",
+    "tip": "Cambia de arma según el jefe; algunas funcionan mejor a corta distancia y otras a larga."
+  },
+
+  {
+    "juego": "Rayman Legends",
+    "situacion": "niveles",
+    "tip": "Mantén el ritmo del movimiento para superar secciones rápidas sin perder impulso."
+  },
+  {
+    "juego": "Rayman Legends",
+    "situacion": "secretos",
+    "tip": "Golpea paredes sospechosas para encontrar zonas ocultas y rescatar personajes."
+  },
+  {
+    "juego": "Rayman Legends",
+    "situacion": "cooperativo",
+    "tip": "En cooperativo, coordina saltos y ataques para no estorbar a otros jugadores."
+  },
 
   {
     "juego": "Assassin’s Creed Odyssey",
@@ -63,6 +328,75 @@
     "juego": "Assassin’s Creed Odyssey",
     "situacion": "sigilo",
     "tip": "Usa el sigilo para eliminar enemigos silenciosamente y evitar combates difíciles."
+  },
+  {
+    "juego": "Assassin’s Creed Odyssey",
+    "situacion": "exploracion",
+    "tip": "Sincroniza miradores para desbloquear viajes rápidos y explorar más rápido."
+  },
+
+  {
+    "juego": "God of War",
+    "situacion": "combate",
+    "tip": "Usa el escudo para bloquear y hacer parry contra enemigos más agresivos."
+  },
+  {
+    "juego": "God of War",
+    "situacion": "habilidades",
+    "tip": "Mejora habilidades que se adapten a tu estilo, ya sea daño rúnico o combate cuerpo a cuerpo."
+  },
+  {
+    "juego": "God of War",
+    "situacion": "exploracion",
+    "tip": "Explora zonas secundarias para conseguir equipo, recursos y mejoras importantes."
+  },
+
+  {
+    "juego": "Devil May Cry 5",
+    "situacion": "combos",
+    "tip": "Varía tus ataques para mantener alto el rango de estilo durante los combates."
+  },
+  {
+    "juego": "Devil May Cry 5",
+    "situacion": "personajes",
+    "tip": "Aprende las mecánicas de cada personaje, porque todos se juegan de forma diferente."
+  },
+  {
+    "juego": "Devil May Cry 5",
+    "situacion": "mejoras",
+    "tip": "Compra habilidades de movilidad primero para esquivar y mantener combos con más facilidad."
+  },
+
+  {
+    "juego": "Sekiro: Shadows Die Twice",
+    "situacion": "parry",
+    "tip": "Domina el desvío de ataques; bloquear no es suficiente para ganar combates difíciles."
+  },
+  {
+    "juego": "Sekiro: Shadows Die Twice",
+    "situacion": "jefes",
+    "tip": "Aprende el ritmo de cada jefe y no ataques sin observar sus patrones."
+  },
+  {
+    "juego": "Sekiro: Shadows Die Twice",
+    "situacion": "sigilo",
+    "tip": "Usa ataques sigilosos para reducir enemigos antes de entrar en combate directo."
+  },
+
+  {
+    "juego": "Marvel's Spider-Man Remastered",
+    "situacion": "combate",
+    "tip": "Mantente en movimiento y usa telarañas para controlar grupos grandes de enemigos."
+  },
+  {
+    "juego": "Marvel's Spider-Man Remastered",
+    "situacion": "exploracion",
+    "tip": "Activa torres y completa actividades secundarias para conseguir fichas de mejora."
+  },
+  {
+    "juego": "Marvel's Spider-Man Remastered",
+    "situacion": "habilidades",
+    "tip": "Desbloquea habilidades de esquiva y combate aéreo para pelear con más fluidez."
   },
 
   {
@@ -75,6 +409,11 @@
     "situacion": "vehiculos",
     "tip": "Ajusta la configuración del auto según el tipo de carrera para mejorar el rendimiento."
   },
+  {
+    "juego": "Forza Horizon 5",
+    "situacion": "progreso",
+    "tip": "Participa en distintos eventos para desbloquear autos y ganar experiencia rápidamente."
+  },
 
   {
     "juego": "Need for Speed Heat",
@@ -85,6 +424,59 @@
     "juego": "Need for Speed Heat",
     "situacion": "dinero",
     "tip": "Participa en carreras nocturnas para ganar más reputación, pero ten cuidado con la policía."
+  },
+  {
+    "juego": "Need for Speed Heat",
+    "situacion": "autos",
+    "tip": "Mejora aceleración y manejo antes que velocidad máxima para competir mejor en ciudad."
+  },
+
+  {
+    "juego": "Gran Turismo 7",
+    "situacion": "frenado",
+    "tip": "Frena antes de entrar a las curvas y acelera gradualmente al salir para no perder tracción."
+  },
+  {
+    "juego": "Gran Turismo 7",
+    "situacion": "autos",
+    "tip": "Elige autos equilibrados al principio en lugar de solo buscar mayor potencia."
+  },
+  {
+    "juego": "Gran Turismo 7",
+    "situacion": "licencias",
+    "tip": "Completa pruebas de licencia para mejorar tu técnica y desbloquear progreso."
+  },
+
+  {
+    "juego": "F1 23",
+    "situacion": "curvas",
+    "tip": "Aprende los puntos de frenado de cada circuito para mejorar tus tiempos por vuelta."
+  },
+  {
+    "juego": "F1 23",
+    "situacion": "neumaticos",
+    "tip": "Cuida el desgaste de neumáticos evitando bloqueos y aceleraciones bruscas."
+  },
+  {
+    "juego": "F1 23",
+    "situacion": "configuracion",
+    "tip": "Ajusta alerones y suspensión según el circuito para equilibrar velocidad y agarre."
+  },
+
+  {
+    "juego": "Mario Kart 8 Deluxe",
+    "situacion": "items",
+    "tip": "Guarda objetos defensivos como conchas o plátanos cuando vayas en primer lugar."
+  },
+  {
+    "juego": "Mario Kart 8 Deluxe",
+    "situacion": "derrape",
+    "tip": "Usa derrapes en curvas largas para cargar mini turbos y ganar velocidad."
+  },
+  {
+    "juego": "Mario Kart 8 Deluxe",
+    "situacion": "pistas",
+    "tip": "Aprende los atajos de cada pista para reducir tiempo y sorprender a tus rivales."
   },
 
   {
@@ -97,15 +489,73 @@
     "situacion": "energia",
     "tip": "Administra tu energía diaria y evita agotarte para no perder productividad."
   },
+  {
+    "juego": "Stardew Valley",
+    "situacion": "relaciones",
+    "tip": "Habla con los aldeanos y dales regalos que les gusten para mejorar la amistad."
+  },
 
   {
-    "juego": "Super Mario Bros. Wonder",
-    "situacion": "niveles",
-    "tip": "Explora bien cada nivel para encontrar caminos secretos y recompensas ocultas."
+    "juego": "The Sims 4",
+    "situacion": "necesidades",
+    "tip": "Mantén equilibradas las necesidades básicas de tus Sims para evitar estados negativos."
   },
   {
-    "juego": "Super Mario Bros. Wonder",
-    "situacion": "habilidades",
-    "tip": "Aprovecha las habilidades especiales de cada personaje para superar obstáculos."
+    "juego": "The Sims 4",
+    "situacion": "construccion",
+    "tip": "Diseña casas funcionales dejando suficiente espacio para que los Sims se muevan."
+  },
+  {
+    "juego": "The Sims 4",
+    "situacion": "trabajo",
+    "tip": "Mejora habilidades relacionadas con la carrera de tu Sim para obtener ascensos más rápido."
+  },
+
+  {
+    "juego": "Cities: Skylines",
+    "situacion": "trafico",
+    "tip": "Diseña avenidas principales y calles secundarias para evitar embotellamientos."
+  },
+  {
+    "juego": "Cities: Skylines",
+    "situacion": "servicios",
+    "tip": "Coloca escuelas, hospitales y bomberos cerca de las zonas residenciales."
+  },
+  {
+    "juego": "Cities: Skylines",
+    "situacion": "crecimiento",
+    "tip": "Expande la ciudad poco a poco para no saturar agua, electricidad y transporte."
+  },
+
+  {
+    "juego": "Microsoft Flight Simulator",
+    "situacion": "vuelo",
+    "tip": "Empieza con aviones pequeños para aprender controles básicos antes de usar aeronaves grandes."
+  },
+  {
+    "juego": "Microsoft Flight Simulator",
+    "situacion": "aterrizaje",
+    "tip": "Reduce velocidad gradualmente y alinea bien la pista antes de descender."
+  },
+  {
+    "juego": "Microsoft Flight Simulator",
+    "situacion": "clima",
+    "tip": "Practica primero con clima despejado antes de intentar vuelos con viento o tormenta."
+  },
+
+  {
+    "juego": "Euro Truck Simulator 2",
+    "situacion": "conduccion",
+    "tip": "Respeta límites de velocidad y señales para evitar multas innecesarias."
+  },
+  {
+    "juego": "Euro Truck Simulator 2",
+    "situacion": "rutas",
+    "tip": "Elige rutas rentables y revisa la distancia antes de aceptar un trabajo."
+  },
+  {
+    "juego": "Euro Truck Simulator 2",
+    "situacion": "camion",
+    "tip": "Mejora motor y capacidad de combustible para hacer viajes largos con mayor eficiencia."
   }
 ]

@@ -1,3 +1,4 @@
+import random
 from utils.text_utils import clear_text
 from utils.json_utils import cargar_json, cargar_pickle
 
@@ -52,6 +53,14 @@ def responder_con_tag(mensaje):
 def detectar_tag(mensaje):
     mensaje_limpio = clear_text(mensaje)
 
+    palabras_despedida = [
+    "adios","adiós","hasta luego","nos vemos","bye","salir","me voy"
+    ]
+
+    palabras_random = [
+    "cualquier genero", "un juego", "cualquier juego", "cualquier sistema", "cualquier género","cualquiera","algo random","algo aleatorio","lo que sea","de cualquier tipo"
+    ]
+
     palabras_similitud = [
         "jugue","jugué","parecido","parecidos", "similar", "similares", "como", "otro", "otros"
     ]
@@ -68,20 +77,28 @@ def detectar_tag(mensaje):
         "sistema","sistemas","consola","consolas","dispositivo","dispositivos"
     ]
 
+
     nombre_juego = extraer_juego(mensaje, games_data)
     sistema = extraer_sistema(mensaje)
 
     if nombre_juego and any(p in mensaje_limpio for p in palabras_similitud):
         return "juegos_similares"
+    
+    if any(p in mensaje_limpio for p in palabras_despedida):
+        return "despedida"
 
     if any(p in mensaje_limpio for p in palabras_plataforma):
         return "plataforma"
+
+    if any(p in mensaje_limpio for p in palabras_random):
+        return "recomendacion_random"
 
     if any(p in mensaje_limpio for p in palabras_recomendacion):
         return "recomendacion_genero"
 
     if any(p in mensaje_limpio for p in palabras_sistemas):
         return "recomendacion_genero"
+    
 
     return predecir_intencion(mensaje, modelo, vectorizer)
 
@@ -129,6 +146,16 @@ def responder(mensaje):
             return f"No encontré juegos similares a {nombre_juego} para {sistema_detectado}."
 
         return f"No encontré juegos similares a {nombre_juego}."
+
+    elif tag == "recomendacion_random":
+        cantidad = min(5, len(games_data))
+        juegos = random.sample(games_data, cantidad)
+
+        nombres = [j["juego"] for j in juegos]
+
+        guardar_juego(juegos[0]["juego"])
+
+        return "Te recomiendo estos juegos: " + ", ".join(nombres)
 
     elif tag == "recomendacion_genero":
         genero = extraer_genero(mensaje)
