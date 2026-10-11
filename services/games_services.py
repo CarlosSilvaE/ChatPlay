@@ -1,5 +1,9 @@
-import random
 from utils.text_utils import clear_text
+
+
+def _contiene_frase(texto, frase):
+    return f" {frase} " in f" {texto} "
+
 
 def extraer_genero(mensaje):
     generos = [
@@ -10,12 +14,15 @@ def extraer_genero(mensaje):
         "accion",
         "carreras",
         "simulacion",
+        "estrategia",
+        "deportes",
+        "puzzle",
     ]
 
     mensaje_limpio = clear_text(mensaje)
 
     for genero in generos:
-        if genero in mensaje_limpio:
+        if _contiene_frase(mensaje_limpio, genero):
             return genero
 
     return None
@@ -25,7 +32,13 @@ def extraer_sistema(mensaje):
     sistemas = {
         "pc": "PC",
         "computadora": "PC",
+        "xbox one": "Xbox One",
+        "xbox series x": "Xbox Series X/S",
+        "xbox series s": "Xbox Series X/S",
+        "xbox series": "Xbox Series X/S",
         "xbox": "Xbox",
+        "playstation 4": "PlayStation 4",
+        "playstation 5": "PlayStation 5",
         "playstation": "PlayStation",
         "ps4": "PlayStation 4",
         "ps5": "PlayStation 5",
@@ -38,15 +51,24 @@ def extraer_sistema(mensaje):
 
     mensaje_limpio = clear_text(mensaje)
 
-    for clave, valor in sistemas.items():
-        if clave in mensaje_limpio:
-            return valor
+    for clave in sorted(sistemas, key=len, reverse=True):
+        if _contiene_frase(mensaje_limpio, clave):
+            return sistemas[clave]
 
     return None
 
 
 def extraer_juego(mensaje, games_data):
     mensaje_limpio = clear_text(mensaje)
+
+    for juego in sorted(
+        games_data,
+        key=lambda item: len(clear_text(item["juego"])),
+        reverse=True,
+    ):
+        nombre_juego = clear_text(juego["juego"])
+        if _contiene_frase(mensaje_limpio, nombre_juego):
+            return juego["juego"]
 
     aliases = {
         "minecraft": "Minecraft",
@@ -66,15 +88,14 @@ def extraer_juego(mensaje, games_data):
         "stardew": "Stardew Valley",
     }
 
-    for alias, nombre_real in aliases.items():
-        if alias in mensaje_limpio:
-            return nombre_real
-
-    for juego in games_data:
-        nombre_juego = clear_text(juego["juego"])
-
-        if nombre_juego in mensaje_limpio:
-            return juego["juego"]
+    for alias in sorted(aliases, key=len, reverse=True):
+        if _contiene_frase(mensaje_limpio, alias):
+            nombre_real = aliases[alias]
+            if any(
+                clear_text(juego["juego"]) == clear_text(nombre_real)
+                for juego in games_data
+            ):
+                return nombre_real
 
     return None
 

@@ -1,60 +1,77 @@
 import json
-import os
-import pickle
+from pathlib import Path
 
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import classification_report
+from sklearn.model_selection import StratifiedKFold, cross_val_predict
+from sklearn.pipeline import make_pipeline
 
-from utils.text_utils import clear_text
+from services.cache_services import (
+    inicializar_cache,
+    obtener_ejemplos_confirmados,
+)
+from services.learning_services import (
+    crear_clasificador,
+    crear_vectorizer,
+    entrenar_modelo as ajustar_modelo,
+    preparar_datos,
+    resumen_clases,
+)
 
-INTENTS_PATH = "Datasets/intents.json"
-MODELS_DIR = "models"
-MODELS_PATH = os.path.join(MODELS_DIR, "modelo.pkl")
-VECTORIZER_PATH = os.path.join(MODELS_DIR, "vectorizer.pkl")
 
-def cargar_intenciones(ruta_json):
+PROJECT_ROOT = Path(__file__).resolve().parent
+INTENTS_PATH = PROJECT_ROOT / "Datasets" / "intents.json"
+
+
+def cargar_intenciones(ruta_json=INTENTS_PATH):
     with open(ruta_json, "r", encoding="utf-8") as archivo:
-        data = json.load(archivo)
-    return data
+        return json.load(archivo)
 
 
-def preparar_datos(data):
-    textos = []
-    etiquetas = []
+def evaluar_y_entrenar():
+    inicializar_cache()
+    data = cargar_intenciones()
+    textos, etiquetas = preparar_datos(
+        data,
+        obtener_ejemplos_confirmados(),
+    )
+    conteo = resumen_clases(etiquetas)
+    menor_clase = min(conteo.values())
+    if menor_clase < 2:
+        raise ValueError(
+            "Se necesitan al menos dos ejemplos por intención para evaluar "
+            "el modelo con validación cruzada."
+        )
 
-    for intent in data["intents"]:
-        tag = intent["tag"]
+    pliegues = min(5, menor_clase)
+    validacion = StratifiedKFold(
+        n_splits=pliegues,
+        shuffle=True,
+        random_state=42,
+    )
+    evaluador = make_pipeline(crear_vectorizer(), crear_clasificador())
+    predicciones = cross_val_predict(
+        evaluador,
+        textos,
+        etiquetas,
+        cv=validacion,
+    )
+    print(f"Ejemplos por intención: {conteo}")
+    print(f"Evaluación estratificada ({pliegues} pliegues):")
+    print(
+        classification_report(
+            etiquetas,
+            predicciones,
+            zero_division=0,
+        )
+    )
 
-        for pattern in intent["patterns"]:
-            texto_limpio = clear_text(pattern)
-            textos.append(texto_limpio)
-            etiquetas.append(tag)
-
-    return textos, etiquetas
-
-
-def entrenar_modelo():
-    data = cargar_intenciones(INTENTS_PATH)
-    textos, etiquetas = preparar_datos(data)
-
-    vectorizer = TfidfVectorizer()
-    X = vectorizer.fit_transform(textos)
-
-    modelo = LogisticRegression(max_iter=1000)
-    modelo.fit(X, etiquetas)
-
-    os.makedirs(MODELS_DIR, exist_ok=True)
-
-    with open(VECTORIZER_PATH, "wb") as archivo_vectorizer:
-        pickle.dump(vectorizer, archivo_vectorizer)
-
-    with open(MODELS_PATH, "wb") as archivo_modelo:
-        pickle.dump(modelo, archivo_modelo)
-
-    print("Modelo entrenado correctamente.")
-    print(f"Modelo guardado en: {MODELS_PATH}")
-    print(f"Vectorizador guardado en: {VECTORIZER_PATH}")
+    modelo, vectorizer = ajustar_modelo(textos, etiquetas)
+    print(
+        f"Modelo final entrenado en memoria: {len(textos)} ejemplos, "
+        f"{len(modelo.classes_)} intenciones."
+    )
+    return modelo, vectorizer
 
 
 if __name__ == "__main__":
-    entrenar_modelo()
+    evaluar_y_entrenar()

@@ -21,3 +21,6 @@ Thumbs.db
 # Modelos o archivos generados, si los tienes
 *.pkl
 *.joblib
+
+# Caché local y ejemplos confirmados
+data/*.sqlite3

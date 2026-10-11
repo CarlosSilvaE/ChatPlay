@@ -9,7 +9,6 @@
     "situacion": "recursos",
     "tip": "Administra bien tu inventario y combina hierbas para maximizar la curación."
   },
-
   {
     "juego": "Hollow Knight",
     "situacion": "jefes",
@@ -20,7 +19,6 @@
     "situacion": "exploracion",
     "tip": "Compra mapas y marcas en la tienda para no perderte en el mundo subterráneo."
   },
-
   {
     "juego": "The Forest",
     "situacion": "supervivencia",
@@ -31,7 +29,16 @@
     "situacion": "enemigos",
     "tip": "Evita enfrentamientos directos al inicio, los enemigos son más fuertes de lo que parecen."
   },
-
+  {
+    "juego": "Minecraft",
+    "situacion": "supervivencia",
+    "tip": "Consigue madera y fabrica herramientas básicas antes de que llegue la primera noche."
+  },
+  {
+    "juego": "Minecraft",
+    "situacion": "exploracion",
+    "tip": "Marca el camino de regreso o lleva una brújula para no perder tu base al explorar."
+  },
   {
     "juego": "Geometry Dash",
     "situacion": "niveles dificiles",
@@ -42,7 +49,6 @@
     "situacion": "precision",
     "tip": "Practica en modo entrenamiento para mejorar tu precisión antes de intentar el nivel completo."
   },
-
   {
     "juego": "Terraria",
     "situacion": "inicio",
@@ -53,7 +59,6 @@
     "situacion": "progreso",
     "tip": "Explora cuevas para encontrar mejores materiales y mejorar tu equipo."
   },
-
   {
     "juego": "Assassin’s Creed Odyssey",
     "situacion": "combate",
@@ -64,7 +69,6 @@
     "situacion": "sigilo",
     "tip": "Usa el sigilo para eliminar enemigos silenciosamente y evitar combates difíciles."
   },
-
   {
     "juego": "Forza Horizon 5",
     "situacion": "carreras",
@@ -75,7 +79,6 @@
     "situacion": "vehiculos",
     "tip": "Ajusta la configuración del auto según el tipo de carrera para mejorar el rendimiento."
   },
-
   {
     "juego": "Need for Speed Heat",
     "situacion": "persecuciones",
@@ -86,7 +89,6 @@
     "situacion": "dinero",
     "tip": "Participa en carreras nocturnas para ganar más reputación, pero ten cuidado con la policía."
   },
-
   {
     "juego": "Stardew Valley",
     "situacion": "inicio",
@@ -97,7 +99,6 @@
     "situacion": "energia",
     "tip": "Administra tu energía diaria y evita agotarte para no perder productividad."
   },
-
   {
     "juego": "Super Mario Bros. Wonder",
     "situacion": "niveles",
@@ -107,5 +108,505 @@
     "juego": "Super Mario Bros. Wonder",
     "situacion": "habilidades",
     "tip": "Aprovecha las habilidades especiales de cada personaje para superar obstáculos."
+  },
+  {
+    "juego": "God of War Ragnarök",
+    "situacion": "combate",
+    "tip": "Usa las indicaciones visuales del enemigo para decidir cuándo esquivar, bloquear o contraatacar."
+  },
+  {
+    "juego": "Marvel's Spider-Man Remastered",
+    "situacion": "combate",
+    "tip": "Mantente en movimiento y usa telarañas para separar enemigos armados del resto."
+  },
+  {
+    "juego": "Marvel's Spider-Man: Miles Morales",
+    "situacion": "sigilo",
+    "tip": "Aprovecha el camuflaje para reposicionarte cuando los enemigos detecten tu presencia."
+  },
+  {
+    "juego": "Uncharted: Legacy of Thieves Collection",
+    "situacion": "exploracion",
+    "tip": "Observa los salientes y objetos del entorno; suelen señalar rutas para avanzar o cubrirte."
+  },
+  {
+    "juego": "The Last of Us Part I",
+    "situacion": "recursos",
+    "tip": "Revisa habitaciones laterales y evita gastar munición cuando puedas superar una zona con sigilo."
+  },
+  {
+    "juego": "Ghost of Tsushima Director's Cut",
+    "situacion": "combate",
+    "tip": "Cambia de postura según el tipo de enemigo y estudia sus ataques antes de entrar en combate."
+  },
+  {
+    "juego": "Horizon Zero Dawn Complete Edition",
+    "situacion": "combate",
+    "tip": "Escanea las máquinas para conocer sus componentes vulnerables y prioriza esos puntos."
+  },
+  {
+    "juego": "Horizon Forbidden West Complete Edition",
+    "situacion": "preparacion",
+    "tip": "Lleva armas con tipos de daño distintos y prepara munición antes de enfrentarte a máquinas grandes."
+  },
+  {
+    "juego": "Elden Ring",
+    "situacion": "exploracion",
+    "tip": "Si un combate parece demasiado difícil, explora otras zonas y vuelve con más recursos y experiencia."
+  },
+  {
+    "juego": "Dark Souls III",
+    "situacion": "jefes",
+    "tip": "Aprende el alcance y el ritmo de los ataques del jefe; conserva resistencia para poder esquivar."
+  },
+  {
+    "juego": "Sekiro: Shadows Die Twice",
+    "situacion": "combate",
+    "tip": "Practica desviar ataques en vez de depender solo de esquivar para romper la postura rival."
+  },
+  {
+    "juego": "The Witcher 3: Wild Hunt",
+    "situacion": "preparacion",
+    "tip": "Lee el bestiario y prepara aceites, señales y pociones que correspondan al monstruo que vas a cazar."
+  },
+  {
+    "juego": "Cyberpunk 2077",
+    "situacion": "progreso",
+    "tip": "Invierte puntos de habilidad en un estilo de juego y equipa mejoras que apoyen esa estrategia."
+  },
+  {
+    "juego": "Hogwarts Legacy",
+    "situacion": "exploracion",
+    "tip": "Usa Revelio con frecuencia para localizar objetos interactivos y secretos cercanos."
+  },
+  {
+    "juego": "Baldur's Gate 3",
+    "situacion": "combate",
+    "tip": "Aprovecha la altura, la cobertura y el entorno antes de gastar acciones en un encuentro."
+  },
+  {
+    "juego": "The Elder Scrolls V: Skyrim Special Edition",
+    "situacion": "progreso",
+    "tip": "Lleva solo el equipo necesario y vende o guarda objetos para evitar sobrecargar al personaje."
+  },
+  {
+    "juego": "Fallout 4",
+    "situacion": "supervivencia",
+    "tip": "Guarda con frecuencia y revisa el peso del inventario antes de salir a explorar."
+  },
+  {
+    "juego": "Red Dead Redemption 2",
+    "situacion": "exploracion",
+    "tip": "Mantén el caballo alimentado y revisa el mapa antes de emprender viajes largos."
+  },
+  {
+    "juego": "Grand Theft Auto V",
+    "situacion": "misiones",
+    "tip": "Antes de iniciar una misión, lee el objetivo y selecciona un vehículo y equipo adecuados."
+  },
+  {
+    "juego": "Mass Effect Legendary Edition",
+    "situacion": "progreso",
+    "tip": "Habla con tu escuadrón entre misiones para conocer sus historias y posibles opciones de diálogo."
+  },
+  {
+    "juego": "The Legend of Zelda: Breath of the Wild",
+    "situacion": "exploracion",
+    "tip": "Activa las torres y marca lugares interesantes en el mapa para planear recorridos."
+  },
+  {
+    "juego": "The Legend of Zelda: Tears of the Kingdom",
+    "situacion": "construccion",
+    "tip": "Prueba construcciones sencillas primero y usa la función de guardar esquemas para repetirlas."
+  },
+  {
+    "juego": "Super Mario Odyssey",
+    "situacion": "exploracion",
+    "tip": "Revisa cada reino con calma; algunas lunas están ocultas en rutas secundarias o tras paredes rompibles."
+  },
+  {
+    "juego": "Mario Kart 8 Deluxe",
+    "situacion": "carreras",
+    "tip": "Suelta el acelerador en curvas cerradas y mantén el derrape para obtener un impulso al salir."
+  },
+  {
+    "juego": "Animal Crossing: New Horizons",
+    "situacion": "gestion",
+    "tip": "Guarda recursos comunes en el almacén para tener materiales a mano al construir o fabricar."
+  },
+  {
+    "juego": "Splatoon 3",
+    "situacion": "combate por equipos",
+    "tip": "Cubre terreno con tinta y revisa el mapa para apoyar al equipo, no solo buscar eliminaciones."
+  },
+  {
+    "juego": "Super Smash Bros. Ultimate",
+    "situacion": "combate",
+    "tip": "Practica recuperar al escenario desde distintos ángulos y evita gastar todos tus saltos pronto."
+  },
+  {
+    "juego": "Luigi's Mansion 3",
+    "situacion": "exploracion",
+    "tip": "Aspira cortinas, alfombras y objetos sospechosos; algunos esconden dinero o mecanismos."
+  },
+  {
+    "juego": "Metroid Dread",
+    "situacion": "exploracion",
+    "tip": "Si una ruta parece cerrada, recuerda las habilidades recién obtenidas y vuelve a zonas anteriores."
+  },
+  {
+    "juego": "Kirby and the Forgotten Land",
+    "situacion": "niveles",
+    "tip": "Explora los caminos laterales de cada fase para encontrar objetivos y coleccionables opcionales."
+  },
+  {
+    "juego": "Pokémon Scarlet",
+    "situacion": "combate",
+    "tip": "Revisa los tipos de tus Pokémon y cambia de integrante cuando el rival tenga ventaja elemental."
+  },
+  {
+    "juego": "Pokémon Legends: Arceus",
+    "situacion": "captura",
+    "tip": "Acércate agachado desde la hierba alta y usa comida o bayas para facilitar algunas capturas."
+  },
+  {
+    "juego": "Fire Emblem: Three Houses",
+    "situacion": "estrategia",
+    "tip": "Consulta el alcance de los enemigos antes de mover unidades y protege a quienes tengan poca defensa."
+  },
+  {
+    "juego": "Pikmin 4",
+    "situacion": "exploracion",
+    "tip": "Divide las tareas entre grupos pequeños y comprueba que ningún Pikmin se quede atrás al regresar."
+  },
+  {
+    "juego": "Xenoblade Chronicles 3",
+    "situacion": "combate",
+    "tip": "Mantén roles equilibrados en el grupo y vigila la salud de los personajes que atraen enemigos."
+  },
+  {
+    "juego": "Genshin Impact",
+    "situacion": "combate",
+    "tip": "Combina personajes de elementos distintos para activar reacciones y adaptar el equipo al desafío."
+  },
+  {
+    "juego": "Honkai: Star Rail",
+    "situacion": "combate",
+    "tip": "Aprovecha las debilidades del enemigo para reducir su resistencia antes de usar habilidades definitivas."
+  },
+  {
+    "juego": "PUBG Mobile",
+    "situacion": "supervivencia",
+    "tip": "Elige un punto de aterrizaje con una ruta de salida y busca cobertura antes de combatir."
+  },
+  {
+    "juego": "Call of Duty: Mobile",
+    "situacion": "partidas",
+    "tip": "Ajusta sensibilidad y controles en práctica antes de cambiar la configuración durante una partida."
+  },
+  {
+    "juego": "Clash of Clans",
+    "situacion": "aldea",
+    "tip": "Mejora defensas y almacenes de forma equilibrada antes de avanzar demasiado el ayuntamiento."
+  },
+  {
+    "juego": "Clash Royale",
+    "situacion": "mazo",
+    "tip": "Incluye respuestas contra unidades aéreas y terrestres para no depender de una sola carta."
+  },
+  {
+    "juego": "Brawl Stars",
+    "situacion": "combate por equipos",
+    "tip": "Usa las paredes y la hierba para controlar el espacio, y juega alrededor del objetivo del modo."
+  },
+  {
+    "juego": "Pokémon GO",
+    "situacion": "captura",
+    "tip": "Usa bayas y espera el momento adecuado para lanzar la Poké Ball con mayor precisión."
+  },
+  {
+    "juego": "Pokémon UNITE",
+    "situacion": "equipo",
+    "tip": "Presta atención a los objetivos del mapa y coordina las rotaciones en lugar de perseguir rivales."
+  },
+  {
+    "juego": "Asphalt 9: Legends",
+    "situacion": "carreras",
+    "tip": "Aprende dónde están las rampas y usa el nitro en tramos donde puedas mantener la trayectoria."
+  },
+  {
+    "juego": "Subway Surfers",
+    "situacion": "obstaculos",
+    "tip": "Mira varios metros adelante y cambia de carril con anticipación para no quedar encerrado."
+  },
+  {
+    "juego": "Candy Crush Saga",
+    "situacion": "niveles",
+    "tip": "Antes de hacer una combinación, revisa el objetivo y prioriza las piezas que bloquean el tablero."
+  },
+  {
+    "juego": "Monument Valley",
+    "situacion": "puzles",
+    "tip": "Gira las estructuras y observa cómo cambian las perspectivas antes de mover al personaje."
+  },
+  {
+    "juego": "Plants vs. Zombies",
+    "situacion": "defensa",
+    "tip": "Asegura una fuente estable de sol al principio y reserva plantas defensivas para las filas más amenazadas."
+  },
+  {
+    "juego": "Bloons TD 6",
+    "situacion": "estrategia",
+    "tip": "Combina torres con funciones distintas y coloca mejoras según el recorrido de los globos."
+  },
+  {
+    "juego": "Hearthstone",
+    "situacion": "mazo",
+    "tip": "Mantén una curva de maná razonable y evita llenar el mazo de cartas que no apoyan un mismo plan."
+  },
+  {
+    "juego": "MARVEL SNAP",
+    "situacion": "partidas",
+    "tip": "Considera cuándo retirarte: conservar cubos puede ser mejor que arriesgar una partida desfavorable."
+  },
+  {
+    "juego": "Roblox",
+    "situacion": "seguridad",
+    "tip": "Revisa los controles y las reglas de cada experiencia antes de compartir datos o interactuar con otros."
+  },
+  {
+    "juego": "Garena Free Fire",
+    "situacion": "supervivencia",
+    "tip": "Usa cobertura al curarte y presta atención a la zona segura antes de iniciar un enfrentamiento."
+  },
+  {
+    "juego": "Mobile Legends: Bang Bang",
+    "situacion": "equipo",
+    "tip": "Comunica la posición de los rivales y procura que el equipo cubra roles diferentes."
+  },
+  {
+    "juego": "Pokémon TCG Pocket",
+    "situacion": "mazo",
+    "tip": "Construye el mazo alrededor de una estrategia sencilla y prueba consistencia antes de cambiar varias cartas."
+  },
+  {
+    "juego": "Diablo Immortal",
+    "situacion": "progreso",
+    "tip": "Revisa las habilidades disponibles para tu clase y conserva equipo que mejore tu estilo de combate."
+  },
+  {
+    "juego": "Among Us",
+    "situacion": "deduccion",
+    "tip": "Como tripulante, comparte ubicaciones y observaciones concretas sin acusar sin evidencia."
+  },
+  {
+    "juego": "Fall Guys",
+    "situacion": "obstaculos",
+    "tip": "Enfócate en mantener el equilibrio y anticipar obstáculos; seguir la ruta más directa no siempre ayuda."
+  },
+  {
+    "juego": "Rocket League",
+    "situacion": "entrenamiento",
+    "tip": "Practica primero los golpes básicos y la recuperación del auto antes de intentar maniobras aéreas."
+  },
+  {
+    "juego": "Celeste",
+    "situacion": "plataformas",
+    "tip": "Usa las salas de práctica para aprender cada secuencia; los puntos de control permiten intentarlo sin perder mucho progreso."
+  },
+  {
+    "juego": "Cuphead",
+    "situacion": "jefes",
+    "tip": "Observa las señales de cada ataque y prioriza esquivar antes de buscar daño adicional."
+  },
+  {
+    "juego": "Hades",
+    "situacion": "progreso",
+    "tip": "Prueba distintas armas y bendiciones; una combinación complementaria puede facilitar cada intento."
+  },
+  {
+    "juego": "Dead Cells",
+    "situacion": "combate",
+    "tip": "Elige mejoras que apoyen una misma estrategia y usa la esquiva para evitar quedar rodeado."
+  },
+  {
+    "juego": "Ori and the Blind Forest: Definitive Edition",
+    "situacion": "exploracion",
+    "tip": "Recuerda los caminos inaccesibles y regresa cuando obtengas una habilidad de movimiento nueva."
+  },
+  {
+    "juego": "Ori and the Will of the Wisps",
+    "situacion": "combate",
+    "tip": "Adapta las habilidades equipadas a los enemigos y cambia de estrategia si una zona te detiene."
+  },
+  {
+    "juego": "Shovel Knight: Treasure Trove",
+    "situacion": "plataformas",
+    "tip": "Usa el ataque hacia abajo con cuidado y calcula la distancia antes de rebotar sobre enemigos o plataformas."
+  },
+  {
+    "juego": "Undertale",
+    "situacion": "decisiones",
+    "tip": "Lee los mensajes de los personajes y prueba distintas acciones durante los encuentros antes de atacar."
+  },
+  {
+    "juego": "Deltarune",
+    "situacion": "combate",
+    "tip": "Revisa las opciones de diálogo y habilidades; algunas situaciones se pueden resolver sin atacar."
+  },
+  {
+    "juego": "Inside",
+    "situacion": "puzles",
+    "tip": "Observa el entorno antes de avanzar y prueba cómo interactúan los objetos con el escenario."
+  },
+  {
+    "juego": "Limbo",
+    "situacion": "puzles",
+    "tip": "Avanza con cautela en zonas nuevas y fíjate en pistas visuales que anticipan peligros."
+  },
+  {
+    "juego": "It Takes Two",
+    "situacion": "cooperativo",
+    "tip": "Habla con tu compañero y combina las habilidades de ambos personajes para superar cada obstáculo."
+  },
+  {
+    "juego": "Overcooked! 2",
+    "situacion": "cooperativo",
+    "tip": "Asigna tareas claras a cada persona y prepara ingredientes mientras esperas que se cocine la comida."
+  },
+  {
+    "juego": "Moving Out 2",
+    "situacion": "cooperativo",
+    "tip": "Planifica por dónde sacar los objetos grandes y coordina los movimientos con tu equipo."
+  },
+  {
+    "juego": "Unravel Two",
+    "situacion": "cooperativo",
+    "tip": "Usa la cuerda entre personajes para crear puntos de apoyo y ayudar a quien esté más lejos."
+  },
+  {
+    "juego": "Sea of Stars",
+    "situacion": "combate",
+    "tip": "Pulsa en el momento indicado durante ataques y defensas para mejorar el resultado de las acciones."
+  },
+  {
+    "juego": "Dave the Diver",
+    "situacion": "gestion",
+    "tip": "Controla el oxígeno y el peso de la carga durante las inmersiones para regresar con lo más valioso."
+  },
+  {
+    "juego": "Slay the Spire",
+    "situacion": "mazo",
+    "tip": "Evita añadir cartas sin un propósito claro; un mazo compacto facilita encontrar tus mejores combinaciones."
+  },
+  {
+    "juego": "Vampire Survivors",
+    "situacion": "supervivencia",
+    "tip": "Muévete para reunir experiencia y busca mejoras que funcionen bien juntas."
+  },
+  {
+    "juego": "Balatro",
+    "situacion": "estrategia",
+    "tip": "Aprovecha las sinergias entre comodines y adapta las manos a los objetivos de cada ronda."
+  },
+  {
+    "juego": "A Short Hike",
+    "situacion": "exploracion",
+    "tip": "Habla con los personajes y explora senderos secundarios; muchas actividades son opcionales."
+  },
+  {
+    "juego": "Spiritfarer",
+    "situacion": "gestion",
+    "tip": "Organiza las tareas del barco y conversa con sus pasajeros para conocer qué necesitan."
+  },
+  {
+    "juego": "Gris",
+    "situacion": "exploracion",
+    "tip": "Busca caminos laterales y observa los cambios del escenario para encontrar coleccionables."
+  },
+  {
+    "juego": "The Binding of Isaac: Repentance",
+    "situacion": "supervivencia",
+    "tip": "Prioriza evitar daño y aprende qué hacen los objetos antes de comprometer una ruta."
+  },
+  {
+    "juego": "Enter the Gungeon",
+    "situacion": "combate",
+    "tip": "Conserva munición potente para salas o jefes difíciles y usa la voltereta para atravesar proyectiles."
+  },
+  {
+    "juego": "Risk of Rain 2",
+    "situacion": "tiempo",
+    "tip": "Equilibra explorar para conseguir objetos con avanzar antes de que aumente la dificultad."
+  },
+  {
+    "juego": "Don't Starve Together",
+    "situacion": "supervivencia",
+    "tip": "Recolecta comida y materiales básicos antes del anochecer y prepara una fuente de luz."
+  },
+  {
+    "juego": "Subnautica",
+    "situacion": "exploracion",
+    "tip": "Lleva oxígeno suficiente y marca los puntos importantes para poder regresar a salvo."
+  },
+  {
+    "juego": "No Man's Sky",
+    "situacion": "exploracion",
+    "tip": "Revisa los recursos necesarios para reparar el equipo antes de alejarte de una zona segura."
+  },
+  {
+    "juego": "Monster Hunter Rise",
+    "situacion": "caza",
+    "tip": "Estudia los movimientos del monstruo y usa objetos de apoyo antes de que empiece la cacería."
+  },
+  {
+    "juego": "Monster Hunter: World",
+    "situacion": "preparacion",
+    "tip": "Come antes de salir, afila el arma y lleva objetos curativos adecuados para la expedición."
+  },
+  {
+    "juego": "Persona 5 Royal",
+    "situacion": "gestion del tiempo",
+    "tip": "Planifica las actividades diarias y reserva tiempo para mejorar vínculos y habilidades."
+  },
+  {
+    "juego": "Persona 4 Golden",
+    "situacion": "exploracion",
+    "tip": "Gestiona el calendario con anticipación y guarda tiempo para preparar al grupo antes de explorar."
+  },
+  {
+    "juego": "Final Fantasy VII Remake Intergrade",
+    "situacion": "combate",
+    "tip": "Cambia de personaje para llenar barras de acción y explota las debilidades elementales del enemigo."
+  },
+  {
+    "juego": "Final Fantasy XVI",
+    "situacion": "combate",
+    "tip": "Alterna habilidades de Eikon según la distancia y guarda algunas para romper la voluntad de rivales fuertes."
+  },
+  {
+    "juego": "Final Fantasy XIV Online",
+    "situacion": "grupo",
+    "tip": "Lee las indicaciones del rol y practica las mecánicas básicas antes de entrar a una mazmorra nueva."
+  },
+  {
+    "juego": "EA Sports FC 25",
+    "situacion": "partidos",
+    "tip": "Varía pases y ritmo de ataque; repetir la misma jugada hace más fácil que el rival la anticipe."
+  },
+  {
+    "juego": "NBA 2K25",
+    "situacion": "partidos",
+    "tip": "Busca tiros equilibrados y usa bloqueos para crear espacio en lugar de forzar lanzamientos marcados."
+  },
+  {
+    "juego": "Forza Motorsport",
+    "situacion": "carreras",
+    "tip": "Frena antes de entrar a la curva y acelera progresivamente al apuntar hacia la salida."
+  },
+  {
+    "juego": "Gran Turismo 7",
+    "situacion": "carreras",
+    "tip": "Practica la pista y ajusta el frenado para mantener el control al entrar en cada curva."
   }
 ]

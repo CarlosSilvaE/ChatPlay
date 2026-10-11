@@ -37,6 +37,22 @@
     "descripcion": "Juego de supervivencia en una isla con elementos de terror y construcción."
   },
   {
+    "juego": "Minecraft",
+    "genero": "supervivencia",
+    "subgenero": "sandbox",
+    "sistemas": [
+      "PC",
+      "Xbox One",
+      "Xbox Series X/S",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Nintendo Switch",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego sandbox de construcción y exploración con modos de supervivencia y creativo."
+  },
+  {
     "juego": "Geometry Dash",
     "genero": "plataformas",
     "subgenero": "ritmo",
@@ -116,5 +132,1158 @@
       "Nintendo Switch"
     ],
     "descripcion": "Juego de plataformas clásico con nuevas mecánicas y niveles creativos."
+  },
+  {
+    "juego": "God of War Ragnarök",
+    "genero": "accion",
+    "subgenero": "aventura de accion",
+    "sistemas": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "PC"
+    ],
+    "descripcion": "Aventura de acción mitológica centrada en Kratos y Atreus."
+  },
+  {
+    "juego": "Marvel's Spider-Man Remastered",
+    "genero": "accion",
+    "subgenero": "mundo abierto",
+    "sistemas": [
+      "PlayStation 5",
+      "PC"
+    ],
+    "descripcion": "Aventura de acción en la que Spider-Man protege Nueva York."
+  },
+  {
+    "juego": "Marvel's Spider-Man: Miles Morales",
+    "genero": "accion",
+    "subgenero": "mundo abierto",
+    "sistemas": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "PC"
+    ],
+    "descripcion": "Aventura de acción protagonizada por Miles Morales en Nueva York."
+  },
+  {
+    "juego": "Uncharted: Legacy of Thieves Collection",
+    "genero": "aventura",
+    "subgenero": "accion y exploracion",
+    "sistemas": [
+      "PlayStation 5",
+      "PC"
+    ],
+    "descripcion": "Colección de aventuras de exploración, puzles y acción."
+  },
+  {
+    "juego": "The Last of Us Part I",
+    "genero": "aventura",
+    "subgenero": "supervivencia narrativa",
+    "sistemas": [
+      "PlayStation 5",
+      "PC"
+    ],
+    "descripcion": "Aventura narrativa de supervivencia en un mundo posapocalíptico."
+  },
+  {
+    "juego": "Ghost of Tsushima Director's Cut",
+    "genero": "accion",
+    "subgenero": "mundo abierto",
+    "sistemas": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "PC"
+    ],
+    "descripcion": "Aventura de acción ambientada durante la invasión mongola de Tsushima."
+  },
+  {
+    "juego": "Horizon Zero Dawn Complete Edition",
+    "genero": "accion",
+    "subgenero": "mundo abierto",
+    "sistemas": [
+      "PlayStation 4",
+      "PC"
+    ],
+    "descripcion": "Aventura de acción donde Aloy explora un mundo dominado por máquinas."
+  },
+  {
+    "juego": "Horizon Forbidden West Complete Edition",
+    "genero": "accion",
+    "subgenero": "mundo abierto",
+    "sistemas": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "PC"
+    ],
+    "descripcion": "Aventura de acción que continúa la historia de Aloy en nuevas tierras."
+  },
+  {
+    "juego": "Elden Ring",
+    "genero": "accion",
+    "subgenero": "RPG de accion",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "descripcion": "RPG de acción de mundo abierto con exploración y combates desafiantes."
+  },
+  {
+    "juego": "Dark Souls III",
+    "genero": "accion",
+    "subgenero": "RPG de accion",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "descripcion": "RPG de acción de fantasía con combates exigentes y exploración interconectada."
+  },
+  {
+    "juego": "Sekiro: Shadows Die Twice",
+    "genero": "accion",
+    "subgenero": "accion y sigilo",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "descripcion": "Aventura de acción centrada en el sigilo, la precisión y los duelos."
+  },
+  {
+    "juego": "The Witcher 3: Wild Hunt",
+    "genero": "accion",
+    "subgenero": "RPG de mundo abierto",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ],
+    "descripcion": "RPG de mundo abierto protagonizado por el cazador de monstruos Geralt."
+  },
+  {
+    "juego": "Cyberpunk 2077",
+    "genero": "accion",
+    "subgenero": "RPG de mundo abierto",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "descripcion": "RPG de acción ambientado en la ciudad futurista de Night City."
+  },
+  {
+    "juego": "Hogwarts Legacy",
+    "genero": "accion",
+    "subgenero": "RPG de aventura",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Aventura de rol ambientada en el mundo mágico de Hogwarts."
+  },
+  {
+    "juego": "Baldur's Gate 3",
+    "genero": "aventura",
+    "subgenero": "RPG por turnos",
+    "sistemas": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X/S"
+    ],
+    "descripcion": "RPG narrativo por turnos basado en el universo de Dungeons & Dragons."
+  },
+  {
+    "juego": "The Elder Scrolls V: Skyrim Special Edition",
+    "genero": "aventura",
+    "subgenero": "RPG de mundo abierto",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ],
+    "descripcion": "RPG de mundo abierto de fantasía con misiones y exploración libre."
+  },
+  {
+    "juego": "Fallout 4",
+    "genero": "accion",
+    "subgenero": "RPG posapocaliptico",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "descripcion": "RPG de acción posapocalíptico con exploración y construcción de asentamientos."
+  },
+  {
+    "juego": "Red Dead Redemption 2",
+    "genero": "accion",
+    "subgenero": "aventura de mundo abierto",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "descripcion": "Aventura de mundo abierto sobre una banda de forajidos en el Viejo Oeste."
+  },
+  {
+    "juego": "Grand Theft Auto V",
+    "genero": "accion",
+    "subgenero": "mundo abierto",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "descripcion": "Juego de acción de mundo abierto ambientado en la ciudad de Los Santos."
+  },
+  {
+    "juego": "Mass Effect Legendary Edition",
+    "genero": "accion",
+    "subgenero": "RPG de ciencia ficcion",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "descripcion": "Trilogía remasterizada de rol y ciencia ficción centrada en el comandante Shepard."
+  },
+  {
+    "juego": "The Legend of Zelda: Breath of the Wild",
+    "genero": "aventura",
+    "subgenero": "mundo abierto",
+    "sistemas": [
+      "Nintendo Switch"
+    ],
+    "descripcion": "Aventura de exploración libre en el reino de Hyrule."
+  },
+  {
+    "juego": "The Legend of Zelda: Tears of the Kingdom",
+    "genero": "aventura",
+    "subgenero": "mundo abierto",
+    "sistemas": [
+      "Nintendo Switch"
+    ],
+    "descripcion": "Aventura de exploración y construcción ambientada en Hyrule y sus cielos."
+  },
+  {
+    "juego": "Super Mario Odyssey",
+    "genero": "plataformas",
+    "subgenero": "plataformas 3D",
+    "sistemas": [
+      "Nintendo Switch"
+    ],
+    "descripcion": "Juego de plataformas 3D en el que Mario viaja por distintos reinos."
+  },
+  {
+    "juego": "Mario Kart 8 Deluxe",
+    "genero": "carreras",
+    "subgenero": "carreras de karts",
+    "sistemas": [
+      "Nintendo Switch"
+    ],
+    "descripcion": "Juego de carreras de karts con personajes y circuitos del universo Mario."
+  },
+  {
+    "juego": "Animal Crossing: New Horizons",
+    "genero": "simulacion",
+    "subgenero": "vida y comunidad",
+    "sistemas": [
+      "Nintendo Switch"
+    ],
+    "descripcion": "Simulador de vida tranquila en una isla que el jugador puede personalizar."
+  },
+  {
+    "juego": "Splatoon 3",
+    "genero": "accion",
+    "subgenero": "disparos por equipos",
+    "sistemas": [
+      "Nintendo Switch"
+    ],
+    "descripcion": "Juego de acción por equipos donde los participantes cubren el escenario de tinta."
+  },
+  {
+    "juego": "Super Smash Bros. Ultimate",
+    "genero": "accion",
+    "subgenero": "lucha",
+    "sistemas": [
+      "Nintendo Switch"
+    ],
+    "descripcion": "Juego de lucha con personajes de numerosas series de videojuegos."
+  },
+  {
+    "juego": "Luigi's Mansion 3",
+    "genero": "aventura",
+    "subgenero": "aventura y puzles",
+    "sistemas": [
+      "Nintendo Switch"
+    ],
+    "descripcion": "Aventura de Luigi que combina exploración, fantasmas y resolución de puzles."
+  },
+  {
+    "juego": "Metroid Dread",
+    "genero": "accion",
+    "subgenero": "metroidvania",
+    "sistemas": [
+      "Nintendo Switch"
+    ],
+    "descripcion": "Aventura de acción y exploración en 2D protagonizada por Samus Aran."
+  },
+  {
+    "juego": "Kirby and the Forgotten Land",
+    "genero": "plataformas",
+    "subgenero": "plataformas 3D",
+    "sistemas": [
+      "Nintendo Switch"
+    ],
+    "descripcion": "Aventura de plataformas 3D en la que Kirby explora un mundo abandonado."
+  },
+  {
+    "juego": "Pokémon Scarlet",
+    "genero": "aventura",
+    "subgenero": "RPG",
+    "sistemas": [
+      "Nintendo Switch"
+    ],
+    "descripcion": "RPG de captura y entrenamiento de criaturas en la región de Paldea."
+  },
+  {
+    "juego": "Pokémon Legends: Arceus",
+    "genero": "aventura",
+    "subgenero": "RPG de exploracion",
+    "sistemas": [
+      "Nintendo Switch"
+    ],
+    "descripcion": "RPG de exploración y captura ambientado en una antigua versión de Sinnoh."
+  },
+  {
+    "juego": "Fire Emblem: Three Houses",
+    "genero": "aventura",
+    "subgenero": "RPG tactico",
+    "sistemas": [
+      "Nintendo Switch"
+    ],
+    "descripcion": "RPG táctico por turnos con gestión de personajes y una historia ramificada."
+  },
+  {
+    "juego": "Pikmin 4",
+    "genero": "aventura",
+    "subgenero": "estrategia y exploracion",
+    "sistemas": [
+      "Nintendo Switch"
+    ],
+    "descripcion": "Aventura estratégica de exploración y resolución de desafíos con Pikmin."
+  },
+  {
+    "juego": "Xenoblade Chronicles 3",
+    "genero": "aventura",
+    "subgenero": "RPG",
+    "sistemas": [
+      "Nintendo Switch"
+    ],
+    "descripcion": "RPG de mundo abierto con exploración y combates en tiempo real."
+  },
+  {
+    "juego": "Genshin Impact",
+    "genero": "aventura",
+    "subgenero": "RPG de accion",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "RPG de acción gratuito de mundo abierto con exploración y personajes coleccionables."
+  },
+  {
+    "juego": "Honkai: Star Rail",
+    "genero": "aventura",
+    "subgenero": "RPG por turnos",
+    "sistemas": [
+      "PC",
+      "PlayStation 5",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "RPG de ciencia ficción por turnos ambientado en un viaje entre mundos."
+  },
+  {
+    "juego": "PUBG Mobile",
+    "genero": "accion",
+    "subgenero": "battle royale",
+    "sistemas": [
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego de supervivencia competitiva en el que los jugadores buscan ser el último equipo en pie."
+  },
+  {
+    "juego": "Call of Duty: Mobile",
+    "genero": "accion",
+    "subgenero": "disparos",
+    "sistemas": [
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego de disparos para móviles con partidas competitivas y modos variados."
+  },
+  {
+    "juego": "Clash of Clans",
+    "genero": "estrategia",
+    "subgenero": "estrategia y construccion",
+    "sistemas": [
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego de estrategia móvil centrado en construir una aldea y organizar ataques."
+  },
+  {
+    "juego": "Clash Royale",
+    "genero": "estrategia",
+    "subgenero": "estrategia en tiempo real",
+    "sistemas": [
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego de estrategia con duelos en tiempo real y cartas de tropas y hechizos."
+  },
+  {
+    "juego": "Brawl Stars",
+    "genero": "accion",
+    "subgenero": "combate por equipos",
+    "sistemas": [
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego de acción multijugador con partidas breves y distintos modos por equipos."
+  },
+  {
+    "juego": "Pokémon GO",
+    "genero": "aventura",
+    "subgenero": "realidad aumentada",
+    "sistemas": [
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego de exploración móvil que permite encontrar y capturar Pokémon en el entorno."
+  },
+  {
+    "juego": "Pokémon UNITE",
+    "genero": "estrategia",
+    "subgenero": "combate por equipos",
+    "sistemas": [
+      "Nintendo Switch",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego competitivo por equipos en el que Pokémon cooperan para anotar puntos."
+  },
+  {
+    "juego": "Asphalt 9: Legends",
+    "genero": "carreras",
+    "subgenero": "carreras arcade",
+    "sistemas": [
+      "PC",
+      "Nintendo Switch",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego de carreras arcade con autos licenciados y circuitos alrededor del mundo."
+  },
+  {
+    "juego": "Subway Surfers",
+    "genero": "plataformas",
+    "subgenero": "carrera sin fin",
+    "sistemas": [
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego móvil de carrera sin fin que consiste en esquivar obstáculos y trenes."
+  },
+  {
+    "juego": "Candy Crush Saga",
+    "genero": "puzzle",
+    "subgenero": "rompecabezas",
+    "sistemas": [
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego de rompecabezas de combinar caramelos y completar objetivos por nivel."
+  },
+  {
+    "juego": "Monument Valley",
+    "genero": "aventura",
+    "subgenero": "puzles",
+    "sistemas": [
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Aventura de puzles basada en arquitectura imposible y perspectiva."
+  },
+  {
+    "juego": "Plants vs. Zombies",
+    "genero": "estrategia",
+    "subgenero": "defensa de torres",
+    "sistemas": [
+      "PC",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego de estrategia en el que se colocan plantas para defender la casa de zombis."
+  },
+  {
+    "juego": "Bloons TD 6",
+    "genero": "estrategia",
+    "subgenero": "defensa de torres",
+    "sistemas": [
+      "PC",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego de defensa de torres donde monos y mejoras detienen globos que avanzan."
+  },
+  {
+    "juego": "Hearthstone",
+    "genero": "estrategia",
+    "subgenero": "cartas coleccionables",
+    "sistemas": [
+      "PC",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego de cartas coleccionables con duelos estratégicos por turnos."
+  },
+  {
+    "juego": "MARVEL SNAP",
+    "genero": "estrategia",
+    "subgenero": "cartas coleccionables",
+    "sistemas": [
+      "PC",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego de cartas de partidas rápidas con personajes del universo Marvel."
+  },
+  {
+    "juego": "Roblox",
+    "genero": "aventura",
+    "subgenero": "plataforma de experiencias",
+    "sistemas": [
+      "PC",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Plataforma de experiencias interactivas creadas por usuarios."
+  },
+  {
+    "juego": "Garena Free Fire",
+    "genero": "accion",
+    "subgenero": "battle royale",
+    "sistemas": [
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego móvil de supervivencia competitiva con partidas de battle royale."
+  },
+  {
+    "juego": "Mobile Legends: Bang Bang",
+    "genero": "estrategia",
+    "subgenero": "arena de batalla",
+    "sistemas": [
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego de estrategia por equipos en una arena de combate multijugador."
+  },
+  {
+    "juego": "Pokémon TCG Pocket",
+    "genero": "estrategia",
+    "subgenero": "cartas coleccionables",
+    "sistemas": [
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego móvil para coleccionar cartas Pokémon y jugar duelos simplificados."
+  },
+  {
+    "juego": "Diablo Immortal",
+    "genero": "accion",
+    "subgenero": "RPG de accion",
+    "sistemas": [
+      "PC",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "RPG de acción ambientado en el universo de Diablo, disponible en PC y móviles."
+  },
+  {
+    "juego": "Among Us",
+    "genero": "estrategia",
+    "subgenero": "deduccion social",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego multijugador de deducción social sobre una tripulación y sus impostores."
+  },
+  {
+    "juego": "Fall Guys",
+    "genero": "plataformas",
+    "subgenero": "obstaculos multijugador",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Competencia multijugador de plataformas con carreras y pruebas de obstáculos."
+  },
+  {
+    "juego": "Rocket League",
+    "genero": "deportes",
+    "subgenero": "futbol con vehiculos",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Juego deportivo en el que autos impulsados por cohetes intentan marcar goles."
+  },
+  {
+    "juego": "Celeste",
+    "genero": "plataformas",
+    "subgenero": "plataformas de precision",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Juego de plataformas de precisión sobre escalar una montaña y superar desafíos."
+  },
+  {
+    "juego": "Cuphead",
+    "genero": "plataformas",
+    "subgenero": "accion y plataformas",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Juego de acción y plataformas con combates contra jefes y estética de animación clásica."
+  },
+  {
+    "juego": "Hades",
+    "genero": "accion",
+    "subgenero": "roguelike",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Juego de acción roguelike sobre escapar del inframundo griego."
+  },
+  {
+    "juego": "Dead Cells",
+    "genero": "accion",
+    "subgenero": "roguelike metroidvania",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego de acción y exploración con niveles cambiantes y combates rápidos."
+  },
+  {
+    "juego": "Ori and the Blind Forest: Definitive Edition",
+    "genero": "plataformas",
+    "subgenero": "metroidvania",
+    "sistemas": [
+      "PC",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Aventura de plataformas y exploración sobre un espíritu guardián del bosque."
+  },
+  {
+    "juego": "Ori and the Will of the Wisps",
+    "genero": "plataformas",
+    "subgenero": "metroidvania",
+    "sistemas": [
+      "PC",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Aventura de plataformas y exploración que continúa la historia de Ori."
+  },
+  {
+    "juego": "Shovel Knight: Treasure Trove",
+    "genero": "plataformas",
+    "subgenero": "plataformas de accion",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Colección de aventuras de plataformas de acción protagonizadas por caballeros."
+  },
+  {
+    "juego": "Undertale",
+    "genero": "aventura",
+    "subgenero": "RPG narrativo",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "descripcion": "RPG narrativo donde las decisiones del jugador influyen en los encuentros."
+  },
+  {
+    "juego": "Deltarune",
+    "genero": "aventura",
+    "subgenero": "RPG narrativo",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Nintendo Switch"
+    ],
+    "descripcion": "RPG narrativo por capítulos con exploración, personajes y combates por turnos."
+  },
+  {
+    "juego": "Inside",
+    "genero": "aventura",
+    "subgenero": "puzles y plataformas",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "iOS"
+    ],
+    "descripcion": "Aventura de plataformas y puzles con narrativa visual y atmósfera oscura."
+  },
+  {
+    "juego": "Limbo",
+    "genero": "aventura",
+    "subgenero": "puzles y plataformas",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Aventura de plataformas y puzles en blanco y negro."
+  },
+  {
+    "juego": "It Takes Two",
+    "genero": "aventura",
+    "subgenero": "cooperativo",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "descripcion": "Aventura cooperativa diseñada para dos jugadores que resuelven desafíos en pareja."
+  },
+  {
+    "juego": "Overcooked! 2",
+    "genero": "simulacion",
+    "subgenero": "cocina cooperativa",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Juego cooperativo de cocina donde los equipos preparan pedidos bajo presión."
+  },
+  {
+    "juego": "Moving Out 2",
+    "genero": "simulacion",
+    "subgenero": "cooperativo",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Juego cooperativo de mudanzas con escenarios y físicas cómicas."
+  },
+  {
+    "juego": "Unravel Two",
+    "genero": "aventura",
+    "subgenero": "plataformas cooperativas",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Aventura cooperativa de plataformas protagonizada por dos personajes de hilo."
+  },
+  {
+    "juego": "Sea of Stars",
+    "genero": "aventura",
+    "subgenero": "RPG por turnos",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ],
+    "descripcion": "RPG por turnos inspirado en los juegos clásicos de aventura."
+  },
+  {
+    "juego": "Dave the Diver",
+    "genero": "aventura",
+    "subgenero": "exploracion y gestion",
+    "sistemas": [
+      "PC",
+      "Nintendo Switch",
+      "PlayStation 4",
+      "PlayStation 5"
+    ],
+    "descripcion": "Aventura de exploración submarina combinada con la gestión de un restaurante."
+  },
+  {
+    "juego": "Slay the Spire",
+    "genero": "estrategia",
+    "subgenero": "construccion de mazos",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego de estrategia roguelike basado en construir mazos de cartas."
+  },
+  {
+    "juego": "Vampire Survivors",
+    "genero": "accion",
+    "subgenero": "supervivencia arcade",
+    "sistemas": [
+      "PC",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego arcade de supervivencia contra oleadas de enemigos."
+  },
+  {
+    "juego": "Balatro",
+    "genero": "estrategia",
+    "subgenero": "cartas y puzles",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego de cartas roguelike que combina manos de póquer con modificadores."
+  },
+  {
+    "juego": "A Short Hike",
+    "genero": "aventura",
+    "subgenero": "exploracion",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Aventura relajada de exploración y caminata por una isla."
+  },
+  {
+    "juego": "Spiritfarer",
+    "genero": "aventura",
+    "subgenero": "gestion narrativa",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Aventura de gestión narrativa sobre acompañar espíritus en su último viaje."
+  },
+  {
+    "juego": "Gris",
+    "genero": "plataformas",
+    "subgenero": "plataformas artisticas",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "Android",
+      "iOS"
+    ],
+    "descripcion": "Juego artístico de plataformas y exploración con una narrativa visual."
+  },
+  {
+    "juego": "The Binding of Isaac: Repentance",
+    "genero": "accion",
+    "subgenero": "roguelike",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Juego de acción roguelike con salas, objetos y desafíos generados al jugar."
+  },
+  {
+    "juego": "Enter the Gungeon",
+    "genero": "accion",
+    "subgenero": "disparos roguelike",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Juego de disparos roguelike con mazmorras y armas extravagantes."
+  },
+  {
+    "juego": "Risk of Rain 2",
+    "genero": "accion",
+    "subgenero": "disparos roguelike",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Juego de acción cooperativo con niveles cambiantes y enemigos cada vez más fuertes."
+  },
+  {
+    "juego": "Don't Starve Together",
+    "genero": "supervivencia",
+    "subgenero": "supervivencia cooperativa",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Juego de supervivencia cooperativa en un mundo hostil y peculiar."
+  },
+  {
+    "juego": "Subnautica",
+    "genero": "supervivencia",
+    "subgenero": "exploracion submarina",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Aventura de supervivencia y exploración submarina en un planeta alienígena."
+  },
+  {
+    "juego": "No Man's Sky",
+    "genero": "aventura",
+    "subgenero": "exploracion espacial",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Juego de exploración espacial con planetas, construcción y supervivencia."
+  },
+  {
+    "juego": "Monster Hunter Rise",
+    "genero": "accion",
+    "subgenero": "caza de monstruos",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Juego de acción cooperativa centrado en preparar equipo y cazar monstruos."
+  },
+  {
+    "juego": "Monster Hunter: World",
+    "genero": "accion",
+    "subgenero": "caza de monstruos",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "descripcion": "Juego de acción y caza en ecosistemas habitados por grandes monstruos."
+  },
+  {
+    "juego": "Persona 5 Royal",
+    "genero": "aventura",
+    "subgenero": "RPG por turnos",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ],
+    "descripcion": "RPG por turnos que combina la vida escolar con aventuras en mundos sobrenaturales."
+  },
+  {
+    "juego": "Persona 4 Golden",
+    "genero": "aventura",
+    "subgenero": "RPG por turnos",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ],
+    "descripcion": "RPG por turnos sobre un grupo de estudiantes que investiga sucesos misteriosos."
+  },
+  {
+    "juego": "Final Fantasy VII Remake Intergrade",
+    "genero": "accion",
+    "subgenero": "RPG de accion",
+    "sistemas": [
+      "PC",
+      "PlayStation 5"
+    ],
+    "descripcion": "RPG de acción que reimagina la aventura de Cloud en Midgar."
+  },
+  {
+    "juego": "Final Fantasy XVI",
+    "genero": "accion",
+    "subgenero": "RPG de accion",
+    "sistemas": [
+      "PC",
+      "PlayStation 5"
+    ],
+    "descripcion": "RPG de acción de fantasía centrado en Clive y los poderosos Eikons."
+  },
+  {
+    "juego": "Final Fantasy XIV Online",
+    "genero": "aventura",
+    "subgenero": "RPG multijugador",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox Series X/S"
+    ],
+    "descripcion": "RPG multijugador en línea ambientado en el mundo de Eorzea."
+  },
+  {
+    "juego": "EA Sports FC 25",
+    "genero": "deportes",
+    "subgenero": "futbol",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Simulador de fútbol con clubes, selecciones y modos competitivos."
+  },
+  {
+    "juego": "NBA 2K25",
+    "genero": "deportes",
+    "subgenero": "baloncesto",
+    "sistemas": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ],
+    "descripcion": "Simulador de baloncesto con partidos, equipos y modos de carrera."
+  },
+  {
+    "juego": "Forza Motorsport",
+    "genero": "carreras",
+    "subgenero": "simulacion de carreras",
+    "sistemas": [
+      "PC",
+      "Xbox Series X/S"
+    ],
+    "descripcion": "Simulador de carreras en circuito con autos y opciones de configuración."
+  },
+  {
+    "juego": "Gran Turismo 7",
+    "genero": "carreras",
+    "subgenero": "simulacion de carreras",
+    "sistemas": [
+      "PlayStation 4",
+      "PlayStation 5"
+    ],
+    "descripcion": "Simulador de carreras de circuito con una amplia colección de autos."
   }
 ]
